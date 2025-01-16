@@ -1,0 +1,50 @@
+---
+layout: page
+
+
+gnatcatcher_array:
+- image: /images/polioptilidae/black-tailed-gnatcatcher.jpg
+  title: Black-tailed Gnatcatcher (Polioptila melanura) 
+  sub: Gnatcatcher
+  url: construction.html
+- image: /images/polioptilidae/blue-gray-gnatcatcher.jpg
+  title: Blue-gray Gnatcatcher (Polioptila caerulea)
+  sub: Gnatcatcher
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Gnatcatchers<br />
+       </h1>
+       <p>Polioptilidae</p>
+      </header>
+      <p>The 22 species of Polioptilidae occur in North and South America. These dainty birds are intermediate between Old World warblers and wrens in their structure and habits, moving restlessly through foliage seeking insects.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/polioptilidae/black-tailed-gnatcatcher.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Gnatcatchers (Polioptilidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.gnatcatcher_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

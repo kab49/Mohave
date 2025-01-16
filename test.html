@@ -1,0 +1,71 @@
+---
+layout: page
+
+page-name: Bitterns, Egrets, Heron and Ibis
+order: Ciconliiformes
+page-image: /images/ciconliiformes/great-egret.jpg
+
+
+
+
+bittern_array:
+- image: /images/ciconliiformes/american-bittern.jpg
+  title: American Bittern (Botaurus lentiginosus)
+  sub: Bittern
+  url: construction.html
+- image: /images/ciconliiformes/least-bittern.jpg
+  title: Least Bittern (Botaurus exilis)
+  sub: #
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/great-egret.jpg
+  title: Great Egret - Ardea alba
+  sub: Egret
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/snowy-egret.jpg
+  title: Snowy Egret - Egretta thula
+  sub: #
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+
+---
+
+
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1><br>{{ page.page-name }}<br />
+     </h1>
+     <p>{{ page.order }}</p>
+    </header>
+  </div>
+  <span class="image object">
+    <img src="{{ page.page-image }}" alt="" />
+  </span>
+</section>
+
+<!-- Section -->
+
+
+{% for post in page.bittern_array %}  
+
+
+{% if post.sub.size > 1 %}
+
+
+
+<section>
+  <header class="major">
+    <h2>{{ post.sub }} ({{ page.order }})</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+{% endif %}
+ 
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+{% endfor %}
+
+

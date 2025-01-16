@@ -1,0 +1,65 @@
+---
+layout: page
+
+
+owl_array:
+- image: /images/strigiformes/burrowing-owl.jpg
+  title: Burrowing Owl (Athene cunicularia)
+  sub: Owls
+  url: construction.html
+- image: /images/strigiformes/great-horned-owl.jpg
+  title: Great Horned Owl (Bubo virginianus)
+  sub: Owls
+  url: construction.html
+- image: /images/strigiformes/long-eared-owl.jpg
+  title: Long-eared Owl (Asio otus)
+  sub: Owls
+  url: construction.html
+- image: /images/strigiformes/northern-pygmy-owl.jpg
+  title: Northern Pygmy Owl (Glaucidium californicum)
+  sub: Owls
+  url: construction.html
+- image: /images/strigiformes/central-american-pygmy-owl.jpg
+  title: Central American Pygmy Owl (Glaucidium griseiceps)
+  sub: Owls
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Owls<br />
+       </h1>
+       <p>Strigiformes</p>
+      </header>
+      <p>Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight. Owls are divided into two families: the true (or typical) owl family, Strigidae, and the barn owl family, Tytonidae.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/strigiformes/strigiformes.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Owls</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.owl_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+

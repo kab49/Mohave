@@ -1,0 +1,80 @@
+---
+layout: page
+
+
+woodpecker_array:
+- image: /images/piciformes/acorn-woodpecker.jpg
+  title: Acorn Woodpecker (Melanerpes formicivorus)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/downy-woodpecker.jpg
+  title: Downy Woodpecker (Dryobates pubescens)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/gila-woodpecker.jpg
+  title: Gila Woodpecker (Melanerpes uropygialis)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/hairy-woodpecker.jpg
+  title: Hairy Woodpecker (Leuconotopicus villosus)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/ladder-backed-woodpecker.jpg
+  title: Ladder-backed Woodpecker (Dryobates scalaris)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/lewis-woodpecker.jpg
+  title: Lewis's woodpecker (Melanerpes lewis)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/northern-flicker.jpg
+  title: Northern Flicker (Colaptes auratus)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/red-breasted-sapsucker.jpg
+  title: Red-breasted Sapsucker (Sphyrapicus ruber)
+  sub: Woodpecker
+  url: construction.html
+- image: /images/piciformes/red-naped-sapsucker.jpg
+  title: Red-naped Sapsucker (Sphyrapicus nuchalis)
+  sub: Woodpecker
+  url: construction.html
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Woodpeckers<br />
+       </h1>
+       <p>Piciformes</p>
+      </header>
+      <p>Nine families of mostly tree-living birds make up the order Piciformes, the best-known of them being the Picidae, which includes the woodpeckers and close relatives. The Piciformes contain about 71 living genera with a little over 450 species, of which the Picidae make up about half.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/piciformes/piciformes.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Woodpeckers</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.woodpecker_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+

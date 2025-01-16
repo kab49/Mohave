@@ -1,0 +1,169 @@
+---
+layout: page
+
+page-name: Bitterns, Egrets, Heron and Ibis
+order: Ciconliiformes
+page-image: /images/ciconliiformes/great-egret.jpg
+first: Bittern
+
+variation_array:
+- var1: bittern
+  sub1: "Bittern"
+- var1: egret
+  sub1: Egret
+- var1: heron
+  sub1: Heron
+- var1: ibis
+  sub1: Ibis
+
+
+
+bittern_array:
+- image: /images/ciconliiformes/american-bittern.jpg
+  title: American Bittern (Botaurus lentiginosus)
+  sub: Bittern
+  url: construction.html
+- image: /images/ciconliiformes/least-bittern.jpg
+  title: Least Bittern (Botaurus exilis)
+  sub: Bittern
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+
+egret_array:
+- image: /images/ciconliiformes/great-egret.jpg
+  title: Great Egret (Ardea alba)
+  sub: Egret
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/snowy-egret.jpg
+  title: Snowy Egret (Egretta thula)
+  sub: Egret
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+
+heron_array:
+- image: /images/ciconliiformes/black-crowned-night-heron.jpg
+  title: Black-crowned Night Heron (Nycticorax nycticorax)
+  sub: Heron
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/yellow-crowned-night-heron.jpg
+  title: Yellow-crowned Night Heron (Nyctanassa violacea)
+  sub: Heron
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/green-heron.jpg
+  title: Green Heron (Butorides virescens)
+  sub: Heron
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/tricolored-heron.jpg
+  title: Tricolored Heron (Egretta tricolor)
+  sub: Heron
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/great-blue-heron.jpg
+  title: Great Blue Heron (Ardea herodias)
+  sub: Heron
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+
+ibis_array:
+- image: /images/ciconliiformes/white-faced-ibis.jpg
+  title: White-faced Ibis (Plegadis chihi)
+  sub: Probably the best location in North Las Vegas
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+- image: /images/ciconliiformes/white-ibis.jpg
+  title: White Ibis (Eudocimus albus)
+  sub: Probably the best location in North Las Vegas
+  url: mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>{{ page.page-name }}<br />
+       </h1>
+       <p>{{ page.order }}</p>
+      </header>
+    </div>
+    <span class="image object">
+      <img src="{{ page.page-image }}" alt="" />
+    </span>
+  </section>
+
+ <!-- Section -->
+ 
+ <section>
+    <header class="major">
+      <h2>{{ post5.sub1 }} ({{ page.order }})</h2>
+    </header>
+  
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+      
+        {% for post in page.bittern_array %}     
+    
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+        {% endfor %}
+
+    
+        
+  </section>
+
+
+
+  
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Egrets</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+    
+      {% for post in page.egret_array %}
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+  
+      {% endfor %}
+  
+      
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Heron</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+    
+      {% for post in page.heron_array %}
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+  
+      {% endfor %}
+  
+      
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Ibis</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+    
+      {% for post in page.ibis_array %}
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+  
+      {% endfor %}
+  
+      
+</section>

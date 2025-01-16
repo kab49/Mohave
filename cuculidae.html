@@ -1,0 +1,90 @@
+---
+layout: page
+
+ani_array:
+- image: /images/cuculidae/groove-billed-ani.jpg
+  title: Groove-billed Ani (Crotophaga sulcirostris)
+  sub: Ani
+  url: construction.html
+
+cucoo_array:
+- image: /images/cuculidae/yellow-billed-cucoo.jpg
+  title: Yellow-billed Cuckoo (Coccyzus americanus)
+  sub: Cucoos
+  url: construction.html
+
+roadrunner_array:
+- image: /images/cuculidae/greater-roadrunner.jpg
+  title: Greater Roadrunner (Geococcyx californianus)
+  sub: Roadrunners
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Ani, Cucoos and Roadrunners<br />
+       </h1>
+       <p>Cuculidae</p>
+      </header>
+      <p>The cuckoo family includes the common or European cuckoo, roadrunners, koels, malkohas, couas, coucals, and anis.</p>
+      </div>
+      <span class="image object">
+      <img src= /images/mohave-birds/cuculidae.jpg alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+        <h2>Ani</h2>
+  </header>   
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+        
+      {% for post in page.ani_array %}
+      
+    <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+      {% endfor %}
+
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Cucoo</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.cucoo_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+        
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Greater Roadrunner</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.roadrunner_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+      {% endfor %}
+                
+</section>

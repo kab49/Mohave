@@ -1,0 +1,107 @@
+---
+layout: page
+---
+
+{% comment %}
+
+	Editorial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+
+	Name:
+
+		Bird Blog Post layout
+
+	Description:
+
+		A layout for bird blog posts.
+
+	Example:
+
+		---
+		layout: post
+		---
+
+{% endcomment %}
+
+<h3> <post class="author"></post></h3>
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1><br>{{ page.title }}<br />
+         </h1>
+            <p>{{ page.scientific-name }}</p>
+        </header>
+        <p>{{ page.intro }}</p>
+        <ul class="actions">
+            <li><a href="#" class="button large">Learn More</a></li>
+        </ul>
+    </div>
+    <span class="image object">
+        <img src="{{ site.baseurl }}/images/{{ featured-image }}" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Details</h2>
+    </header>
+
+    <!-- Features -->
+	<div class="features">
+
+		{% for feature in include.features %}
+
+			<article>
+
+				{% if feature.icon %}
+					<span class="icon {{ feature.icon }}"></span>
+				{% endif %}
+
+				<div class="content">
+					<h3>{{ feature.title }}</h3>
+					<p>{{ feature.excerpt | remove: "<p>" | remove: "</p>" }}</p>
+
+					{% if feature.url %}
+						<ul class="actions">
+							<li><a class="button" href="#">Read More</a></li>
+						</ul>
+					{% endif %}
+
+				</div>
+			</article>
+
+		{% endfor %}
+
+	</div>
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Photos</h2>
+    </header>
+
+    <!-- Posts -->
+	<div class="posts">
+
+		{% for post in include.posts %}
+
+			<article>
+				<a href="{{ post.url }}" class="image"><img src="{{ post.image }}" alt="" /></a>
+				<h3>{{ post.title }}</h3>
+				<p>{{ post.excerpt | remove: "<p>" | remove: "</p>" }}</p>
+				<ul class="actions">
+					<li><a href="{{ post.url }}" class="button">More</a></li>
+				</ul>
+			</article>
+
+		{% endfor %}
+
+	</div>
+</section>
+
+{{ content }}

@@ -1,0 +1,109 @@
+---
+layout: page
+
+
+chickadee_array:
+- image: /images/paridae-remizidae/black-capped-chickadee.jpg
+  title: Black-capped Chickadee (Poecile atricapillus)
+  sub: Chickadee
+  url: construction.html
+- image: /images/paridae-remizidae/mountain-chickadee.jpg
+  title: Mountain Chickadee (Poecile gambeli)
+  sub: Chickadee
+  url: construction.html
+- image: /images/paridae-remizidae/chestnut-backed-chickadee.jpg
+  title: Chestnut-backed Chickadee (Poecile rufescens)
+  sub: Chickadee
+  url: construction.html
+
+verdin_array:
+- image: /images/paridae-remizidae/verdin.jpg
+  title: Verdin (Auriparus flaviceps)
+  sub: Verdin
+  url: construction.html
+
+bushtit_array:
+- image: /images/paridae-remizidae/bushtit.jpg
+  title: Bushtit (Psaltriparus minimus)
+  sub: Bushtit
+  url: construction.html
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Tits, Chickadees, Titmice, Penduline Tits and Bushtits
+            <br />
+       </h1>
+       <p>Paridae, Remizidae and Aegithalidae</p>
+      </header>
+      <p>Eurasian and African members of this family are referred to as "tits", while North American species are called either "chickadees" (onomatopoeic, derived from their distinctive "chick-a dee dee dee" alarm call) or "titmice". These birds are mainly small, stocky, woodland species with short, stout bills. Many species live around human habitation and come readily to bird feeders for nuts or seed, and learn to take other foods.<br>
+        The penduline-tits are a family of small passerine birds related to the true tits. One species has been recorded in Nevada, the Verdin.<br>
+        Bushtits are active birds with long tails compared to their size, moving almost constantly while they forage for insects in shrubs and trees.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/paridae-remizidae/black-capped-chickadee.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Chickadees (Paridae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.chickadee_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Verdin (Remizidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.verdin_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Bushtit (Aegithalidae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.bushtit_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+  </section>
+  

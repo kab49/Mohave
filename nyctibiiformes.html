@@ -1,0 +1,71 @@
+---
+layout: page
+
+
+nighthawk_array:
+- image: /images/nyctibiiformes/common-nighthawk.jpg
+  title: Common Nighthawk (Chordeiles minor)
+  sub: Loon
+  url: construction.html
+
+poorwill_array:
+- image: /images/nyctibiiformes/common-poorwill.jpg
+  title: Common Poorwill (Phalaenoptilus nuttallii)
+  sub: Rail
+  url: construction.html
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Nighthawks and Poorwill<br />
+       </h1>
+       <p>Nyctibiiformes</p>
+      </header>
+      <p>Traditionally, a number of wading and terrestrial bird families that did not seem to belong to any other order were classified together as Gruiformes. These include 15 species of large cranes, about 145 species of smaller crakes and rails, as well as a variety of families comprising one to three species, such as the Heliornithidae, the limpkin, or the Psophiidae. Other birds have been placed in this order more out of necessity to place them somewhere. </p>
+    </div>
+    <span class="image object">
+      <img src="/images/nyctibiiformes/common-poorwill.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Nighthawk (Nyctibiiformes)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.nighthawk_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<section>
+    <header class="major">
+        <h2>Poorwill (Nyctibiiformes)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.poorwill_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+  </section>

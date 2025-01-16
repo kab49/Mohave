@@ -1,0 +1,107 @@
+---
+layout: page
+
+turkey_array:
+- image: /images/galliformes/wild-turkey.jpg
+  title: Wild Turkey (Meleagris gallopavo)
+  sub: Turkey
+  url: construction.html
+- image: /images/galliformes/domestic-turkey.jpg
+  title: Domestic Turkey (Meleagris gallopavo domesticus)
+  sub: Turkey
+  url: construction.html
+
+peacock_array:
+- image: /images/galliformes/gambels-quail.jpg
+  title: Prarie Hawk (Falco mexicanus)
+  sub: Peacock
+  url: construction.html
+
+quail_array:
+- image: /images/galliformes/california-quail.jpg 
+  title: California Quail (Callipepla californica)
+  sub: Quail
+  url: construction.html
+- image: /images/galliformes/gambels-quail.jpg 
+  title: Gambel's quail (Callipepla gambelii)
+  sub: Quail
+  url: construction.html
+
+---
+
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Quail, Peacock and Turkey<br />
+       </h1>
+       <p>Galliformes</p>
+      </header>
+    </div>
+    <span class="image object">
+      <img src="/images/galliformes/gambels-quail.jpg" alt="" />
+    </span>
+  </section>
+
+  
+
+
+ <!-- Section -->
+ <section>
+    <header class="major">
+      <h2>Quail</h2>
+    </header>
+  
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+      
+        {% for post in page.quail_array %}
+    
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+        {% endfor %}
+    
+        
+  </section>
+
+  
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Peacock</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+    
+      {% for post in page.peacock_array %}
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+  
+      {% endfor %}
+  
+      
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Turkey</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+    
+      {% for post in page.turkey_array %}
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+  
+      {% endfor %}
+  
+      
+</section>

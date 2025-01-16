@@ -1,0 +1,79 @@
+---
+layout: page
+
+
+cormorant_array:
+- image: /images/suliformes/double-crested-cormorant.jpg
+  title: Double-crested Cormorant (Nannopterum auritum)
+  sub: Cormorant
+  url: construction.html
+- image: /images/suliformes/neotropic-cormorant.jpg
+  title: Neotropic Cormorant (Nannopterum brasilianum)
+  sub: Cormorant
+  url: construction.html
+
+frigatebird_array:
+- image: /images/suliformes/magnificent-frigatebird.jpg
+  title: Magnificent Frigatebird (Fregata magnificens)
+  sub: Cormorant
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Cormorants<br />
+       </h1>
+       <p>Suliformes</p>
+      </header>
+      <p>The order Suliformes is a group of birds that includes pelicans, cormorants, anhingas, frigatebirds, and boobies, among others. These birds are adapted for life in the water and are generally large in size, with long wings and webbed feet. They are carnivorous and feed on a variety of prey, including fish, squid, and crustaceans. Suliformes are found in a variety of habitats all around the world, and are known for their elaborate courtship displays. There are many different species of birds in the order Suliformes; cormorants, anhingas, frigatebirds, and boobies.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mohave-birds/suliformes.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Cormorants</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.cormorant_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Frigatebird</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.frigatebird_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+

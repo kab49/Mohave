@@ -1,0 +1,62 @@
+---
+layout: page
+
+
+wren_array:
+- image: /images/troglodytidae/bewicks-wren.jpg
+  title: Bewick's Wren (Thryomanes bewickii) 
+  sub: Wren
+  url: construction.html
+- image: /images/troglodytidae/cactus-wren.jpg
+  title: Cactus Wren (Campylorhynchus brunneicapillus)
+  sub: Wren
+  url: construction.html
+- image: /images/troglodytidae/house-wren.jpg
+  title: Northern House Wren (Troglodytes aedon)
+  sub: Wren
+  url: construction.html
+- image: /images/troglodytidae/marsh-wren.jpg
+  title: Marsh Wren (Cistothorus palustris)
+  sub: Wren
+  url: construction.html
+- image: /images/troglodytidae/rock-wren.jpg
+  title: Rock Wren (Salpinctes obsoletus)
+  sub: Wren
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Wrens<br />
+       </h1>
+       <p>Troglodytidae</p>
+      </header>
+      <p>The family includes 96 species and is divided into 19 genera. All species are restricted to the New World except for the Eurasian wren that is widely distributed in the Old World. In Anglophone regions, the Eurasian wren is commonly known simply as the "wren", as it is the originator of the name.  Nine species have been recorded in Nevada.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/troglodytidae/bewicks-wren.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Wrens (Troglodytidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.wren_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

@@ -1,0 +1,80 @@
+---
+layout: page
+
+falcon_array:
+- image: /images/falconiformes/kestral.jpg
+  title: American kestrel (Falco sparverius)
+  sub: Falcon
+  url: construction.html
+- image: /images/falconiformes/merlin.jpg
+  title: Merlin (Falco columbarius)
+  sub: Falcon
+  url: construction.html
+- image: /images/falconiformes/prairie-falcon1.jpg
+  title: Prarie Hawk (Falco mexicanus)
+  sub: Falcon
+  url: construction.html
+- image: /images/falconiformes/peregrine.jpg
+  title: Falcon
+  sub: Bittern
+  url: construction.html
+
+caracara_array:
+- image: /images/falconiformes/crested-caracara.jpg
+  title: Crested Caracara (Caracara plancus)
+  sub: Bittern
+  url: construction.html
+---
+
+
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1><br> Falcons<br />
+     </h1>
+     <p>Falconiformes</p>
+    </header>
+    <p>Traditionally, the other bird of prey families Cathartidae (New World vultures and condors), Sagittariidae (secretarybird), Pandionidae (ospreys), Accipitridae (hawks) were classified in Falconiformes. A variety of comparative genome analyses published since 2008, however, found that falcons are part of a clade of birds called Australaves, which also includes seriemas, parrots and passerines.</p>
+  </div>
+  <span class="image object">
+    <img src="/images/falconiformes/prairie-falcon1.jpg" alt="" />
+  </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Falcons (Falconiformes)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.falcon_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+        
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Caracaras (Falconiformes)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.caracara_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+        
+</section>
+

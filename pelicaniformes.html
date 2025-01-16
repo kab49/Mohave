@@ -1,0 +1,75 @@
+---
+layout: page
+
+page-name: Pelicans and Spoonbills
+order: Pelecaniformes
+intro: "The pelicans, shoebill and hamerkop form a clade within the suborder Pelecani. The relationships between Pelecani, Herons (Ardeidae), Ibises and Spoonbills (Threskiornithidae) are unclear."
+page-image: /images/pelecaniformes/american-white-pelican.jpg
+
+
+pelican_array:
+- image: /images/pelecaniformes/american-white-pelican.jpg
+  title: American White Pelican (Pelecanus erythrorhynchos)
+  sub: Pelican
+  url: construction.html
+- image: /images/pelecaniformes/brown-pelican.jpg
+  title: Brown Pelican (Pelecanus occidentalis)
+  sub: Pelican
+  url: construction.html
+
+spoonbill_array:
+- image: /images/pelecaniformes/roseate-spoonbill.jpg
+  title: Roseate Spoonbill (Platalea ajaja)
+  sub: Spoonbill
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1><br>{{ page.page-name }}<br />
+     </h1>
+     <p>{{ page.order }}</p>
+    </header>
+    <p>{{ page.intro }}</p>
+  </div>
+  <span class="image object">
+    <img src="{{ page.page-image }}" alt="" />
+  </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Pelicans (Pelecaniformes)</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+  {% for post in page.pelican_array %}
+ 
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+  {% endfor %}
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Spoonbills (Pelecaniformes)</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+  {% for post in page.spoonbill_array %}
+ 
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+  {% endfor %}
+</section>

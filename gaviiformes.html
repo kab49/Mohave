@@ -1,0 +1,51 @@
+---
+layout: page
+
+
+loon_array:
+- image: /images/gaviiformes/common-loon.jpg
+  title: Common Loon (Gavia immer)
+  sub: Loon
+  url: construction.html
+- image: /images/gaviiformes/yellow-billed-loon.jpg
+  title: Yellow-billed Loon (Gavia adamsii)
+  sub: Loon
+  url: construction.html
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Loons<br />
+       </h1>
+       <p>Gaviiformes</p>
+      </header>
+      <p>Loons, which are the size of large ducks or small geese, resemble these birds in shape when swimming. Like ducks and geese, but unlike coots (which are Rallidae) and grebes (Podicipedidae), the loon's toes are connected by webbing. </p>
+    </div>
+    <span class="image object">
+      <img src="/images/gaviiformes/yellow-billed-loon.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Loons</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.loon_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

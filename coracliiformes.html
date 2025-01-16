@@ -1,0 +1,48 @@
+---
+layout: page
+
+
+kingfisher_array:
+- image: /images/mohave-birds/coracliiformes.jpg
+  title: Belted Kingfisher (Megaceryle alcyon)
+  sub: Kingfisher
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Kingfishers<br />
+       </h1>
+       <p>Coracliiformes</p>
+      </header>
+      <p>The Coracliiformes are a group of usually colourful birds including the kingfishers, the bee-eaters, the rollers, the motmots, and the todies. They generally have syndactyly, with three forward-pointing toes (and toes 3 & 4 fused at their base), though in many kingfishers one of these is missing.[citation needed] The members of this order are linked by their “slamming” behaviour, thrashing their prey onto surfaces to disarm or incapacitate them.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mohave-birds/coracliiformes.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Kingfisher</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.kingfisher_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

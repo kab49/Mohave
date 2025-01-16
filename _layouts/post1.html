@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1><br>{{ page.title }}<br />
+         </h1>
+            <p>{{ page.scientific }}</p>
+        </header>
+        <p>{{ page.intro }}</p>
+    </div>
+    <span class="image object">
+        <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+    </span>
+</section>
+
+
+{{ content }}
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Natural History</h2>
+    </header>
+    {% include components/features.html features=page.features %}
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>More Photographs</h2>
+    </header>
+    {% include components/posts1.html posts=page.my_posts_array %}
+</section>
+

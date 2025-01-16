@@ -1,0 +1,65 @@
+---
+layout: page
+
+
+grebe_array:
+- image: /images/podicipediformes/clarks-grebe.jpg
+  title: Clark's Grebe (Aechmophorus clarkii)
+  sub: Grebe
+  url: construction.html
+- image: /images/podicipediformes/western-grebe.jpg
+  title: Western Grebe (Aechmophorus occidentalis)
+  sub: Grebe
+  url: construction.html
+- image: /images/podicipediformes/podicipediformes.jpg
+  title: Eared Grebe (Podiceps nigricollis)
+  sub: Grebe
+  url: construction.html
+- image: /images/podicipediformes/horned-grebe.jpg
+  title: Horned Grebe (Podiceps auritus)
+  sub: Grebe
+  url: construction.html
+- image: /images/podicipediformes/pied-billed-grebe.jpg
+  title: Pied-billed Grebe (Podilymbus podiceps)
+  sub: Grebe
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Grebes<br />
+       </h1>
+       <p>Podicipediformes</p>
+      </header>
+      <p>Nine families of mostly tree-living birds make up the order Piciformes, the best-known of them being the Picidae, which includes the woodpeckers and close relatives. The Piciformes contain about 71 living genera with a little over 450 species, of which the Picidae make up about half.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/podicipediformes/podicipediformes.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Grebes</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.grebe_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+

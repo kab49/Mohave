@@ -1,0 +1,46 @@
+---
+layout: page
+
+
+shrike_array:
+- image: /images/laniidae/loggerhead-shrike.jpg
+  title: Loggerhead Shrike (Lanius ludovicianus)
+  sub: Shrike
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Shrikes<br />
+       </h1>
+       <p>Laniidae</p>
+      </header>
+      <p>The family is composed of 34 species in two genera. The family name, and that of the larger genus, Lanius, is derived from the Latin word for "butcher", and some shrikes are also known as butcherbirds because of the habit, particularly of males, of impaling prey onto plant spines within their territories. These larders have multiple functions, attracting females and serving as food stores. Most shrike species have a Eurasian and African distribution, with just two breeding in North America.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/laniidae/loggerhead-shrike.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Shrikes (Laniidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.shrike_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

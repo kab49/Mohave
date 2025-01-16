@@ -1,0 +1,84 @@
+---
+layout: page
+
+mockingbird_array:
+- image: /images/mimidae/northern-mockingbird.jpg
+  title: Northern Mockingbird (Mimus polyglottos)
+  sub: Mockingbird
+  url: construction.html
+
+
+thrasher_array:
+- image: /images/mimidae/california-thrasher.jpg
+  title: California Thrasher (Toxostoma redivivum
+  sub: Thrasher
+  url: construction.html
+- image: /images/mimidae/crissal-thrasher.jpg
+  title: Crissal Thrasher (Toxostoma crissale)
+  sub: Thrasher
+  url: construction.html
+- image: /images/mimidae/curve-billed-thrasher1.jpg
+  title: Curve-billed Thrasher (Toxostoma curvirostre)
+  sub: Thrasher
+  url: construction.html
+- image: /images/mimidae/sage-thrasher.jpg
+  title: Sage Thrasher (Oreoscoptes montanus)
+  sub: Thrasher
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Mockingbirds and Thrashers<br />
+       </h1>
+       <p>Mimidae</p>
+      </header>
+      <p>The mimids are the New World family of passerine birds, Mimidae, that includes thrashers, mockingbirds, tremblers, and the New World catbirds. As their name (Latin for "mimic") suggests, these birds are notable for their vocalization, especially some species' remarkable ability to mimic a wide variety of birds and other sounds heard outdoors. They are commonly referred to as mimic thrushes but are not, in fact, thrushes.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/mimidae/crissal-thrasher.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Mockingbirds (Mimidae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.mockingbird_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+</section>
+  
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Thrashers (Mimidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.thrasher_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

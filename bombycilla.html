@@ -1,0 +1,61 @@
+---
+layout: page
+
+page-name: Waxwings
+order: Bombycilla
+intro: "Waxwings are characterised by soft silky plumage. They have unique red tips to some of the wing feathers where the shafts extend beyond the barbs; in the Bohemian and cedar waxwings, these tips look like sealing wax, and give the group its common name."
+page-image: /images/bombycilla/cedar-waxwing.jpg
+
+
+
+
+bird_array:
+- image: /images/bombycilla/bohemian-waxwing.jpg
+  title: Bohemian Waxwing (Bombycilla garrulus)
+  sub: Waxwings
+  url: construction.html
+- image: /images/bombycilla/cedar-waxwing.jpg
+  title: Cedar Waxwing (Bombycilla cedrorum)
+  sub: #
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>{{ page.page-name }}<br />
+       </h1>
+       <p>{{ page.order }}</p>
+      </header>
+      <p>{{ page.intro }}</p>
+    </div>
+    <span class="image object">
+      <img src="{{ page.page-image }}" alt="" />
+    </span>
+  </section>
+  
+  <!-- Section -->
+  
+  
+  {% for post in page.bird_array %}
+  
+  {% if post.sub.size > 1 %}
+  
+  
+  
+  <section>
+    <header class="major">
+      <h2>{{ post.sub }} ({{ page.order }})</h2>
+    </header>
+  
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+  
+  {% endif %}
+   
+    
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+    
+  {% endfor %}

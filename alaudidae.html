@@ -1,0 +1,57 @@
+---
+layout: page
+
+page-name: Larks
+order: Alaudidae
+intro: "Like many ground birds, most lark species have long hind claws, which are thought to provide stability while standing. Most have streaked brown plumage, some boldly marked with black or white. Their dull appearance camouflages them on the ground, especially when on the nest. They feed on insects and seeds; though adults of most species eat seeds primarily, all species feed their young insects for at least the first week after hatching. Many species dig with their bills to uncover food. One species has been recorded in Nevada, Horned Lark (Eremophila alpestris)."
+page-image: /images/alaudidae/horned-lark.jpg
+
+
+
+
+bird_array:
+- image: /images/alaudidae/horned-lark.jpg
+  title: Horned Lark (Eremophila alpestris)
+  sub: Larks
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>{{ page.page-name }}<br />
+       </h1>
+       <p>{{ page.order }}</p>
+      </header>
+      <p>{{ page.intro }}</p>
+    </div>
+    <span class="image object">
+      <img src="{{ page.page-image }}" alt="" />
+    </span>
+  </section>
+  
+  <!-- Section -->
+  
+  
+  {% for post in page.bird_array %}
+  
+  {% if post.sub.size > 1 %}
+  
+  
+  
+  <section>
+    <header class="major">
+      <h2>{{ post.sub }} ({{ page.order }})</h2>
+    </header>
+  
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+  
+  {% endif %}
+   
+    
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+    
+  {% endfor %}

@@ -1,0 +1,49 @@
+---
+layout: page
+---
+
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1><br> Mohave Birds<br />
+     </h1>
+    </header>
+  </div>
+  <span class="image object">
+    <img src="/images/kestral4.jpg" alt="" />
+  </span>
+</section>
+
+<div class="box alt">
+  <div class="row gtr-50 gtr-uniform">
+    <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/mohave-birds/accipitriformes/coopers-hawk.html
+      "><figure><img src="images/accippiter-cooperii-1.jpg" alt="" /><figcaption>Cooper's Hawk - Accipiter cooperii<figcaption></figcaption></figure></a></span></div>
+    
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Categories</h2>
+  </header>
+  {% include components/posts.html posts=page.my_posts_array %}
+</section>
+
+<!-- Posts -->
+	<div class="posts">
+
+		{% for post in include.posts %}
+
+			<article>
+				<a href="{{ post.url }}" class="image"><img src="{{ post.image }}" alt="" /></a>
+				<h3>{{ post.title }}</h3>
+				<p>{{ post.excerpt | remove: "<p>" | remove: "</p>" }}</p>
+				<ul class="actions">
+					<li><a href="{{ post.url }}" class="button">More</a></li>
+				</ul>
+			</article>
+
+		{% endfor %}
+
+	</div>

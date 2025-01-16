@@ -1,0 +1,85 @@
+---
+layout: page
+
+
+swallow_array:
+- image: /images/hirundinidae/barn-swallow.jpg
+  title: Barn Swallow (Hirundo rustica)
+  sub: Swallow
+  url: construction.html
+- image: /images/hirundinidae/cliff-swallow.jpg
+  title: Cliff Swallow (Petrochelidon pyrrhonota)
+  sub: Swallow
+  url: construction.html
+- image: /images/hirundinidae/tree-swallow.jpg
+  title: Tree Swallow (Tachycineta bicolor) 
+  sub: Swallow
+  url: construction.html
+- image: /images/hirundinidae/northern-rough-winged-swallow.jpg
+  title: Northern Rough-winged Swallow (Stelgidopteryx serripennis)
+  sub: Swallow
+  url: construction.html
+
+purple-martin_array:
+- image: /images/hirundinidae/purple-martin.jpg
+  title: Purple Martin (Progne subis)
+  sub: Swallow
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Swallows, Martins, and Saw-wings<br />
+       </h1>
+       <p>Hirundinidae</p>
+      </header>
+      <p>The swallows, martins, and saw-wings, or Hirundinidae are a family of passerine songbirds found around the world on all continents, including occasionally in Antarctica. Highly adapted to aerial feeding, they have a distinctive appearance.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/hirundinidae/tree-swallow.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Swallows (Hirundinidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.swallow_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Martins (Hirundinidae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.purple-martin_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+</section>

@@ -1,0 +1,108 @@
+---
+layout: page
+
+
+tyrant-flycatchers_array:
+- image: /images/flycatchers/ash-throated-flycatcher.jpg
+  title: Ash-throated Flycatcher (Myiarchus cinerascens)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/black-phoebe.jpg
+  title: Black Phoebe (Sayornis nigricans) 
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/says-phoebe.jpg
+  title: Say's Phoebe (Sayornis saya)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/gray-flycatcher.jpg
+  title: Gray Flycatcher (Empidonax wrightii)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/hammonds-flycatcher.jpg
+  title: Hammond's Flycatcher (Empidonax hammondii)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/olive-sided-flycatcher.jpg
+  title: Olive-sided Flycatcher (Contopus cooperi)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/vermillion-flycatcher.jpg
+  title: Vermilion Flycatcher (Pyrocephalus obscurus) 
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/western-kingbird.jpg
+  title: Western Kingbird (Tyrannus verticalis)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/western-wood-pewee.jpg
+  title: Western Wood Pewee (Contopus sordidulus)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/flycatchers/willow-flycatcher.jpg
+  title: Willow Flycatcher (Empidonax traillii)
+  sub: Tyrant Flycatcher
+  url: construction.html
+
+silky-flycatchers_array:
+- image: /images/flycatchers/phainopepla.jpg
+  title: Phainopepla (Phainopepla nitens)
+  sub: Silky Flycatcher
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Flycatchers<br />
+       </h1>
+       <p>Ptiliogonatidae and Tyrannidae</p>
+      </header>
+      <p>The tyrant flycatchers (Tyrannidae) are a family of passerine birds which occur throughout North and South America. They are considered the largest family of birds known, with more than 400 species. They are the most diverse avian family in every country in the Americas, except for the United States and Canada. The members vary greatly in shape, patterns, size and colors.<br>
+        The unrelated, except by name, silky-flycatchers are a small family, Ptiliogonatidae, of passerine birds. The family contains only four species in three genera. They occur mainly in Central America from Panama to Mexico, with one species, the phainopepla, extending northwards into the southwestern US.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/flycatchers/vermillion-flycatcher.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Tyrant Flycatchers (Tyrannidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.tyrant-flycatchers_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Silky Flycatchers (Ptiliogonatidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.silky-flycatchers_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

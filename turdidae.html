@@ -1,0 +1,112 @@
+---
+layout: page
+
+bluebird_array:
+- image: /images/turdidae/mountain-bluebird.jpg
+  title: Mountain Bluebird (Sialia currucoides) 
+  sub: Thrush
+  url: construction.html
+- image: /images/turdidae/western-bluebird.jpg
+  title: Western Bluebird (Turdus rufopalliatus)
+  sub: Thrush
+  url: construction.html
+
+thrush_array:
+- image: /images/turdidae/american-robin.jpg
+  title: American Robin (Turdus migratorius) 
+  sub: Thrush
+  url: construction.html
+- image: /images/turdidae/rufous-backed-robin.jpg
+  title: Rufous-backed Robin (Turdus rufopalliatus)
+  sub: Thrush
+  url: construction.html
+- image: /images/turdidae/hermit-thrush.jpg
+  title: Hermit Thrush (Catharus guttatus)
+  sub: Thrush
+  url: construction.html
+- image: /images/turdidae/varied-thrush.jpg
+  title: Varied Thrush (Ixoreus naevius)
+  sub: Thrush
+  url: construction.html
+
+solitare_array:
+- image: /images/turdidae/townsends-solitare.jpg
+  title: Townsend's Solitaire (Myadestes townsendi)
+  sub: Thrush
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Thrushes<br />
+       </h1>
+       <p>Turdidae</p>
+      </header>
+      <p>Thrushes are small to medium-sized ground living birds that feed on insects, other invertebrates, and fruit. Some unrelated species around the world have been named after thrushes due to their similarity to birds in this family.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/turdidae/hermit-thrush.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Bluebirds (Turdidae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.bluebird_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Thrushes (Turdidae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.thrush_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+  </section>
+  
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Solitare (Turdidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.solitare_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

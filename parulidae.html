@@ -1,0 +1,78 @@
+---
+layout: page
+
+
+warbler_array:
+- image: /images/parulidae/common-yellowthroat.jpg
+  title: Common Yellowthroat (Geothlypis trichas)
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/hooded-warbler.jpg
+  title: Hooded Warbler (Setophaga citrina)
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/lucys-warbler.jpg
+  title: Lucy's Warbler (Leiothlypis luciae)
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/orange-crowned-warbler.jpg
+  title: Orange-crowmed Warbler (Leiothlypis celata)
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/palm-warbler.jpg
+  title: Palm Warbler (Setophaga palmarum) 
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/townsends-warbler.jpg
+  title: Townsend's warbler (Setophaga townsendi)
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/wilsons-warbler.jpg
+  title: Wilson's Warbler (Cardellina pusilla)
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/yellow-warbler.jpg
+  title: Yellow Warbler (Setophaga petechia)
+  sub: New World Warblers
+  url: construction.html
+- image: /images/parulidae/yellow-rumped-warbler.jpg
+  title: Yellow-rumped Warbler (Setophaga coronata) 
+  sub: New World Warblers
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>New World Warblers<br />
+       </h1>
+       <p>Parulidae</p>
+      </header>
+      <p>The New World warblers or wood-warblers are a group of small, often colorful, passerine birds that make up the family Parulidae and are restricted to the New World. The family contains 120 species. This group likely originated in northern Central America, where the greatest number of species and diversity between them is found. From there, they spread north during the interglacial periods, mainly as migrants, returning to the ancestral region in winter. Forty-four species have been recorded in Nevada.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/parulidae/hooded-warbler.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>New World Warblers (Parulidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.warbler_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

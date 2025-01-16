@@ -1,0 +1,89 @@
+---
+layout: page
+
+page-name: Cardinals and Grosbeaks
+order: Cardinalidae
+intro: "Members of this group are beloved for their brilliant red, yellow, or blue plumages seen in many of the breeding males in this family. Most species are monogamous breeders that nest in open-cup nests, with parents taking turns incubating the nest and taking care of their young. Most are arboreal species."
+page-image: /images/cardinalidae/northern-cardinal.jpg
+
+
+
+
+bird_array:
+- image: /images/cardinalidae/indigo-bunting.jpg
+  title: Indigo Bunting (Passerina cyanea)
+  sub: Buntings
+  url: construction.html
+- image: /images/cardinalidae/lazuli-bunting.jpg
+  title: Lazuli Bunting (Passerina amoena)
+  sub: #
+  url: construction.html
+- image: /images/cardinalidae/northern-cardinal.jpg
+  title: Northern Cardinal (Cardinalis cardinalis)
+  sub: Cardinals
+  url: construction.html
+- image: /images/cardinalidae/pyrrhuloxia.jpg
+  title: Pyrrhuloxia (Cardinalis sinuatus)
+  sub: #
+  url: construction.html
+- image: /images/cardinalidae/black-headed-grosbeak.jpg
+  title: Black-headed Grosbeak (Pheucticus melanocephalus)
+  sub: Grosbeaks
+  url: construction.html
+- image: /images/cardinalidae/blue-grosbeak.jpg
+  title: Blue Grosbeak (Passerina caerulea)
+  sub: #
+  url: construction.html
+- image: /images/cardinalidae/western-tanager.jpg
+  title: Western Tanager (Piranga ludoviciana)
+  sub: Tanagers
+  url: construction.html
+- image: /images/cardinalidae/summer-tanager.jpg
+  title: Summer Tanager (Piranga rubra)
+  sub: #
+  url: construction.html
+
+---
+
+
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1><br>{{ page.page-name }}<br />
+     </h1>
+     <p>{{ page.order }}</p>
+    </header>
+    <p>{{ page.intro }}</p>
+  </div>
+  <span class="image object">
+    <img src="{{ page.page-image }}" alt="" />
+  </span>
+</section>
+
+<!-- Section -->
+
+
+{% for post in page.bird_array %}
+
+{% if post.sub.size > 1 %}
+
+
+
+<section>
+  <header class="major">
+    <h2>{{ post.sub }} ({{ page.order }})</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+{% endif %}
+ 
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+{% endfor %}
+</section>
+
+

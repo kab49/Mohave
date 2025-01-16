@@ -1,0 +1,145 @@
+---
+layout: page
+
+
+corvus_array:
+- image: /images/corvidae/common-crow.jpg
+  title: American Crow (Corvus brachyrhynchos)
+  sub: Corvids
+  url: construction.html
+- image: /images/corvidae/common-raven.jpg
+  title: Common Raven (Corvus corax)
+  sub: Corvids
+  url: construction.html
+- image: /images/corvidae/hooded-crow.jpg
+  title: Hooded Crow (Corvus cornix)
+  sub: Corvids
+  url: construction.html
+
+nutcracker_array:
+- image: /images/corvidae/clarks-nutcracker.jpg
+  title: Clark's Nutcracker (Nucifraga columbiana)
+  sub: Nutcracker
+  url: construction.html
+
+jay_array:
+- image: /images/corvidae/blue-jay.jpg
+  title: Blue Jay (Cyanocitta cristata)
+  sub: Jay
+  url: construction.html
+- image: /images/corvidae/california-scrub-jay.jpg
+  title: California Scrub Jay (Aphelocoma californica)
+  sub: Jay
+  url: construction.html
+- image: /images/corvidae/canada-jay.jpg
+  title: Canada Jay (Perisoreus canadensis)
+  sub: Tyrant Flycatcher
+  url: construction.html
+- image: /images/corvidae/stellars-jay.jpg
+  title: Steller's Jay (Cyanocitta stelleri)
+  sub: Jay
+  url: construction.html
+- image: /images/corvidae/woodhouse-scrub-jay.jpg
+  title: Woodhouse's Scrub Jay (Aphelocoma woodhouseii)
+  sub: Jay
+  url: construction.html
+
+magpie_array:
+- image: /images/corvidae/black-billed-magpie.jpg
+  title: Black-billed Magpie (Pica hudsonia)
+  sub: Silky Flycatcher
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Crows, Jays, and Magpies<br />
+       </h1>
+       <p>Corvidae</p>
+      </header>
+      <p> The Corvid family contains the crows, ravens, rooks, magpies, jackdaws, jays, treepies, choughs, and nutcrackers. Corvids display remarkable intelligence for animals of their size, and are among the most intelligent birds thus far studied. Corvids are found worldwide, except for the southern tip of South America and the polar ice caps. The majority of the species are found in tropical South and Central America and in southern Asia, with fewer than 10 species each in Africa and Australasia. 
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/corvidae/stellars-jay.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Crows and Ravens</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.corvus_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Nutcracker</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.nutcracker_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Jays</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.jay_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Magpies</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.magpie_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+  </section>

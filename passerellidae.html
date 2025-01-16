@@ -1,0 +1,173 @@
+---
+layout: page
+
+old-world-sparrow_array:
+- image: /images/passerellidae/house-sparrow.jpg
+  title: House Sparrow (Passer domesticus)
+  sub: Sparrow
+  url: construction.html
+
+new-world-sparrow_array:
+- image: /images/passerellidae/black-throated-sparrow.jpg
+  title: Black-throated Sparrow (Amphispiza bilineata) 
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/brewers-sparrow.jpg
+  title: Brewer's Sparrow (Spizella breweri)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/chipping-sparrow.jpg
+  title: Chipping Sparrow (Spizella passerina)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/fox-sparrow.jpg
+  title: Fox Sparrow (Passerella iliaca)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/lark-sparrow.jpg
+  title: Lark Sparrow (Chondestes grammacus)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/lincolns-sparrow.jpg
+  title: Lincoln's Sparrow (Melospiza lincolnii)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/sagebrush-sparrow.jpg
+  title: Sagebrush Sparrow (Artemisiospiza nevadensis)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/song-sparrow.jpg
+  title: Song Sparrow (Melospiza melodia)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/vesper-sparrow.jpg
+  title: Vesper Sparrow (Pooecetes gramineus)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/savannah-sparrow.jpg
+  title: Savannah Sparrow (Passerculus sandwichensis)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/white-crowned-sparrow.jpg
+  title: White-crowned Sparrow (Zonotrichia leucophrys)
+  sub: Sparrow
+  url: construction.html
+- image: /images/passerellidae/white-throated-sparrow.jpg
+  title: White-throated Sparrow (Zonotrichia albicollis)
+  sub: Sparrow
+  url: construction.html
+
+dark-eyed-junco_array:
+- image: /images/passerellidae/dark-eyed-junco.jpg
+  title: Dark-eyed Junco (Junco hyemalis)
+  sub: Sparrow
+  url: construction.html
+
+towhee_array:
+- image: /images/passerellidae/aberts-towhee.jpg
+  title: Abert's Towhee (Melozone abert) 
+  sub: Towhee
+  url: construction.html
+- image: /images/passerellidae/california-tohee.jpg
+  title: California Towhee (Melozone crissalis)
+  sub: Towhee
+  url: construction.html
+- image: /images/passerellidae/spotted-towhee.jpg
+  title: Spotted Towhee (Pipilo maculatus)
+  sub: Towhee
+  url: construction.html
+
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Old and New World Sparrows<br />
+       </h1>
+       <p>Passeridae and Passerellidae</p>
+      </header>
+      <p>New World sparrows are a group of mainly New World passerine birds, forming the family Passerellidae. They are seed-eating birds with conical bills, brown or gray in color, and many species have distinctive head patterns. Although they share the name sparrow, New World sparrows are more closely related to Old World buntings than they are to the Old World sparrows. I have combined old and new world sparrows here to save space.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/passerellidae/brewers-sparrow.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Old World Sparrows (Passeridae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.old-world-sparrow_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>New World Sparrows (Passerellidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.new-world-sparrow_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Dark-eyed Junco (Passerellidae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.dark-eyed-junco_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Towhees (Passerellidae)</h2>
+    </header>
+    
+      <div class="box alt">
+      <div class="row gtr-50 gtr-uniform">
+        
+        {% for post in page.towhee_array %}
+      
+        <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+      
+        {% endfor %}
+      
+          
+  </section>

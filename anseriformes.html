@@ -1,0 +1,170 @@
+---
+layout: page
+last_modified_at:
+title: "Anseriformes"
+sub_title: "Ducks, Geese and Swans"
+intro: "Birds are a conspicuous part of the Mohave Desert"
+description: "Birds are a conspicuous part of the Mohave Desert"
+featured_image: /images/mohave-birds/anseriformes.jpg
+published: true
+sitemap: true
+categories: [birds, accipitroformes]
+tags: mohave, birds, accipitroformes, hawks, eagles, raptors
+
+bird_array:
+- image: /images/anseriformes/mallard.jpg
+  title: Mallard (Anas platyrhynchos)
+  sub: Ducks
+  url: construction.html
+- image: /images/anseriformes/mexican-duck.jpg
+  title: Mexican Duck (Anas diazi)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/green-winged-teal.jpg
+  title: Green-winged Teal (Anas carolinensis)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/northern-pintail.jpg
+  title: Northern Pintail (Anas acuta)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/ruddy-duck.jpg
+  title: Ruddy Duck (Oxyura jamaicensis)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/northern-shoveler.jpg
+  title: Northern-shoveler (Spatula clypeata)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/american-wigeon.jpg
+  title: American Wigeon (Mareca americana)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/blue-winged-teal.jpg
+  title: Blue-winged Teal (Spatula discors)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/cinnamon-teal.jpg
+  title: Cinnamon Teal (Spatula cyanoptera)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/bufflehead.jpg
+  title: Bufflehead (Bucephala albeola)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/common-goldeneye.jpg
+  title: Common Goldeneye (Bucephala clangula)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/gadwall.jpg
+  title: Gadwall (Mareca strepera)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/greater-scaup.jpg
+  title: Greater Scaup (Aythya marila)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/lesser-scaup.jpg
+  title: Lesser Scaup (Aythya affinis)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/redhead.jpg
+  title: Readhead (Aythya americana)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/ring-necked-duck.jpg
+  title: Ring-necked Duck (Aythya collaris)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/canvasback.jpg
+  title: Canvasback (Aythya valisineria)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/hooded-merganser.jpg
+  title: Hooded Merganser (Lophodytes cucullatus)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/common-merganser.jpg
+  title: Common Merganser (Mergus merganser)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/red-breasted-merganser.jpg
+  title: Red-breasted Merganser (Mergus serrator)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/long-tailed-duck.jpg
+  title: Long-tailed Duck (Clangula hyemalis)
+  sub: #
+  url: mohave-birds/anseriformes/long-tailed-duck.html
+- image: /images/anseriformes/muscovy-duck.jpg
+  title: Muscovy Duck (Cairina moschata)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/wood-duck.jpg
+  title: Wood Duck (Aix sponsa)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/mandarin-duck.jpg
+  title: Mandarin Duck (Aix galericulata)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/canada-goose.jpg
+  title: Canada Goose (Branta canadensis)
+  sub: Geese
+  url: construction.html
+- image: /images/anseriformes/snow-goose.jpg
+  title: Snow Goose (Anser caerulescens)
+  sub: #
+  url: construction.html
+- image: /images/anseriformes/tundra-swan.jpg
+  title: Tundra Swan (Cygnus columbianus)
+  sub: Swans
+  url: construction.html
+- image: /images/anseriformes/mute-swan.jpg
+  title: Mute Swan (Cairina moschata)
+  sub: #
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>{{ page.title }}<br />
+       </h1>
+       <p>{{ page.sub_title }}</p>
+       </header>
+       <p>{{ page.intro }}</p>
+    </div>
+    <span class="image object">
+      <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="" />
+    </span>
+  </section>
+  
+  
+  {% for post in page.bird_array %}
+  
+  {% if post.sub.size > 1 %}
+  
+  
+  <section>
+  
+    <header class="major">
+      <h2>{{ post.sub }}</h2>
+    </header>
+  
+    <div class="box alt">
+        <div class="row gtr-50 gtr-uniform">
+  
+            {% endif %}
+   
+    
+            <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+  
+            {% endfor %}
+
+        </div>>
+    </div>
+  </section>

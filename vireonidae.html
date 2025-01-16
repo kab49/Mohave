@@ -1,0 +1,50 @@
+---
+layout: page
+
+
+vireo_array:
+- image: /images/vireonidae/warbling-vireo.jpg
+  title: Warbling Vireo (Vireo gilvus)
+  sub: Vireo
+  url: construction.html
+- image: /images/vireonidae/cassins-vireo.jpg
+  title: Cassin's Vireo (Vireo cassinii)
+  sub: Vireo
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Vireos<br />
+       </h1>
+       <p>Vireoidae</p>
+      </header>
+      <p>The Vireo family contains 62 species and is divided into eight genera. "Vireo" is a Latin word referring to a green migratory bird. They are typically dull-plumaged and greenish in color, the smaller species resembling wood warblers apart from their heavier bills. Most species are found in Middle America and northern South America. Thirteen species of true vireos occur farther north, in the United States, Bermuda and Canada. Twelve species have been recorded in Nevada.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/vireonidae/warbling-vireo.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Vireos (Vireoidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.vireo_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

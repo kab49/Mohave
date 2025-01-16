@@ -1,0 +1,115 @@
+---
+layout: page
+last_modified_at:
+title: "Accipitriformes"
+sub_title: "Hawks, Eagles, Kites and Vultures"
+intro: "Birds are a conspicuous part of the Mohave Desert"
+description: "Birds are a conspicuous part of the Mohave Desert"
+featured_image: /images/mohave-birds/accipitriformes.jpg
+
+
+raptor_array:
+- image: /images/accipitriformes/coopers-hawk.jpg
+  title: Cooper's Hawk (Astur cooperii)
+  sub: Hawks (Accipitridae)
+  url: mohave-birds/accipitriformes/coopers-hawk.html
+- image: /images/accipitriformes/sharp-shinned-hawk.jpg
+  title: Sharp-shinned Hawk (Accipiter striatus)
+  sub: #
+  url: mohave-birds/accipitriformes/sharp-shinned-hawk.html
+- image: /images/accipitriformes/red-shouldered-hawk.jpg
+  title: Red-shouldered Hawk (Buteo lineatus)
+  sub: #
+  url: mohave-birds/accipitriformes/red-shouldered-hawk.html
+- image: /images/accipitriformes/red-tailed-hawk.jpg
+  title: Red-tailed Hawk (Buteo jamaicensis)
+  sub: #
+  url: mohave-birds/accipitriformes/red-tailed-hawk.html
+- image: /images/accipitriformes/northern-harrier.jpg
+  title: Northern Harrier (Circus hudsonius)
+  sub: #
+  url: mohave-birds/accipitriformes/northern-harrier.html
+- image: /images/accipitriformes/american-goshawk-1.jpg
+  title: American Goshawk (Accipiter atricapillus)
+  sub: #
+  url: construction.html
+- image: /images/accipitriformes/common-black-hawk-1.jpg
+  title: Common Black Hawk (Buteogallus anthracinus)
+  sub: #
+  url: construction.html
+- image: /images/accipitriformes/gray-hawk.jpg
+  title: Gray Hawk (Buteo plagiatus)
+  sub: #
+  url: construction.html
+- image: /images/accipitriformes/bald-eagle.jpg
+  title: Bald Eagle (Haliaeetus leucocephalus)
+  sub: Eagles (Accipitridae)
+  url: construction.html
+- image: /images/accipitriformes/golden-eagle-1.jpg
+  title: Golden Eagle (Aquila chrysaetos)
+  sub: #
+  url: construction.html
+- image: /images/accipitriformes/mississippi-kite-1.jpg
+  title: Mississippi Kite (Ictinia mississippiensis)
+  sub: Kite (Accipitridae)
+  url: construction.html
+- image: /images/accipitriformes/osprey.jpg
+  title: Osprey (Pandion haliaetus)
+  sub: Osprey (Pandionidae)
+  url: construction.html
+- image: /images/accipitriformes/turkey-vulture.jpg
+  title: Turkey Vulture (Cathartes aura)
+  sub: Vultures (Cathartidae)
+  url: construction.html
+- image: /images/accipitriformes/black-vulture.jpg
+  title: Black Vulture (Coragyps atratus)
+  sub: #
+  url: construction.html
+- image: /images/accipitriformes/king-vulture.jpg
+  title: King Vulture (Sarcoramphus papa)
+  sub: #
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>{{ page.title }}<br />
+       </h1>
+       <p>{{ page.sub_title }}</p>
+       </header>
+       <p>{{ page.intro }}</p>
+    </div>
+    <span class="image object">
+      <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="" />
+    </span>
+  </section>
+  
+  
+  {% for post in page.raptor_array %}
+  
+  {% if post.sub.size > 1 %}
+  
+  
+  <section>
+  
+    <header class="major">
+      <h2>{{ post.sub }}</h2>
+    </header>
+  
+    <div class="box alt">
+        <div class="row gtr-50 gtr-uniform">
+  
+            {% endif %}
+   
+    
+            <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+  
+  
+            {% endfor %}
+
+        </div>>
+    </div>
+  </section>

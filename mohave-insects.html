@@ -1,0 +1,104 @@
+---
+layout: page
+
+page-name: Mohave Insects
+order: 
+intro: "If you look closely in the desert, you can find insects everywhere--on leaves and sand, under rocks and sticks, and in flowers and cactus fruits. Insects have three body segments (head, thorax, and abdomen) and six legs. Most modern insects are winged as adults. Ants are a conspicuous exception to this trend, as most ants are wingless (only the queen and male ants have wings). My coverage of insects of the Mohave will include only hose of particular interest."
+page-image: /images/mohave-insects/mohave-insects.jpg
+
+
+
+
+mohave-insects_array:
+- image: /images/mohave-insects/western-spotted-orbweaver.jpg
+  title: Western Spotted Orbweaver (Neoscona oaxacensis)
+  sub: Spiders (Araneae)
+  url: construction.html
+- image: /images/mohave-insects/armored-stink-beetle.jpg
+  title: Stink Beatles (Eleodes)
+  sub: Beatles (Coleoptera)
+  url: construction.html
+- image: /images/mohave-insects/common-green-bottle-fly.jpg
+  title: Flies (Diptera)
+  sub: Flies (Diptera)
+  url: construction.html
+- image: /images/mohave-insects/california-harvestor-ant.jpg
+  title: Ants (Hymenoptera)
+  sub: Hymenoptera
+  url: construction.html
+- image: /images/mohave-insects/european-honey-bee.jpg
+  title: Bees (Hymenoptera)
+  sub: #
+  url: construction.html
+- image: /images/mohave-insects/golden-paper-wasp.jpg
+  title: Wasps (Hymenoptera)
+  sub: #
+  url: construction.html
+- image: /images//mohave-insects/monarch1.jpg
+  title: Butterflies (Lepidoptera)
+  sub: Lepidoptera
+  url: construction.html
+- image: /images//mohave-insects/hummingbird-moth.jpg
+  title: Moths (Lepidoptera)
+  sub: #
+  url: construction.html
+- image: /images//mohave-insects/springwater-dancer.jpg
+  title: Damselflies (Odonata)
+  sub: Odonata
+  url: construction.html
+- image: /images//mohave-insects/twelve-spotted-skimmer.jpg
+  title: Dragonflies (Odonata)
+  sub: #
+  url: construction.html
+- image: /images//mohave-insects/pallid-winged-grasshopper.jpg
+  title: Grasshoppers (Orthoptera)
+  sub: Orthoptera
+  url: construction.html
+- image: /images//mohave-insects/pallid-winged-grasshopper.jpg
+  title: Crickets (Orthoptera)
+  sub: #
+  url: construction.html
+
+---
+
+
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1><br>{{ page.page-name }}<br />
+     </h1>
+     <p>{{ page.order }}</p>
+    </header>
+    <p>{{ page.intro }}</p>
+  </div>
+  <span class="image object">
+    <img src="{{ page.page-image }}" alt="" />
+  </span>
+</section>
+
+<!-- Section -->
+
+
+{% for post in page.mohave-insects_array %}
+
+{% if post.sub.size > 1 %}
+
+
+<section>
+
+  <header class="major">
+    <h2>{{ post.sub }}</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+{% endif %}
+ 
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+
+{% endfor %}
+</section>

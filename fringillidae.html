@@ -1,0 +1,62 @@
+---
+layout: page
+
+
+finch_array:
+- image: /images/fringillidae/house-finch.jpg
+  title: House Finch (Haemorhous mexicanus) 
+  sub: Finch
+  url: construction.html
+- image: /images/fringillidae/purple-finch.jpg
+  title: Purple Finch (Haemorhous purpureus)
+  sub: Finch
+  url: construction.html
+- image: /images/fringillidae/american-goldfinch.jpg
+  title: American Goldfinch (Spinus tristis)
+  sub: Finch
+  url: construction.html
+- image: /images/fringillidae/lesser-goldfinch.jpg
+  title: lesser-goldfinch (Spinus psaltria)
+  sub: Finch
+  url: construction.html
+- image: /images/fringillidae/pine-siskin.jpg
+  title: Pine Siskin (Spinus pinus)
+  sub: Finch
+  url: construction.html
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Finches<br />
+       </h1>
+       <p>Fringillidae</p>
+      </header>
+      <p>Finches generally have stout conical bills adapted for eating seeds and nuts and often have colourful plumage. They occupy a great range of habitats where they are usually resident and do not migrate. They have a worldwide native distribution except for Australia and the polar regions. Fifteen species have been recorded in Nevada.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/fringillidae/house-finch.jpg" alt="" />
+    </span>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Finches (Fringillidae)</h2>
+  </header>
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.finch_array %}
+    
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>

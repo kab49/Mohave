@@ -1,0 +1,99 @@
+---
+layout: default
+
+features:
+- icon: fa-gem
+  title: Portitor ullamcorper
+  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+- icon: fa-paper-plane
+  title: Sapien veroeros
+  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+- icon: solid fa-rocket
+  title: Quam lorem ipsum
+  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+- icon: solid fa-signal
+  title: Sed magna finibus
+  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+
+posts:
+- image: /images/mohave-birds.jpg
+  title: Mohave Birds
+  excerpt: The Mohave desert is on the Pacific flyway and we see many migratory birds in addition to the native desert and riperian birds.
+  url: "/mohave-birds.html"
+- image: /images/bvp.jpg
+  title: Mohave Birding Hotspots
+  excerpt: Although the Mohave is mostly desert, and there are desert birds, the majority of the birds are to be found around water, either in a river, spring or lake. Also, since I live in Las Vegas, many are in proximity to my home town.
+  url: "/mohave-birding-hotspots.html"
+- image: /images/mohave-plants.jpg
+  title: Mohave Plants
+  excerpt: Although many will picture the desert as a wasteland, it is surprisingly full of life, even in the most trying times of the year.
+  url: "/test.html"
+- image: /images/mohave-flowers.jpg
+  title: Mohave Flowers
+  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+  url: "#"
+- image: /images/mohave-insects/mohave-insects.jpg
+  title: Mohave Insects
+  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+  url: "mohave-insects.html"
+- image: /images/mohave-reptiles/desert-tortoise.jpg
+  title: Mohave Reptiles
+  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+  url: "mohave-reptiles.html"
+- image: /images/mohave-animals.jpg
+  title: Mohave Mammals
+  excerpt: Being a large animal in the Mohave requires finding a location with water and and adaptability.
+  url: "/mohave-mammals.html"
+- image: /images/mohave-native-people.jpg
+  title: Mohave Native People
+  excerpt: Humans have occupied North America for at least the past 15,000 years. 
+  url: "/mohave-native-people.html"
+  
+---
+
+{% comment %}
+
+	Editorial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+
+	Name:
+
+		Home page
+
+	Description:
+
+		Your site's home page.
+
+{% endcomment %}
+
+<!-- Banner -->
+	<section id="banner">
+		<div class="content">
+			<header>
+				<h1><br> Mohave Nature<br />
+			 </h1>
+				<p>Birds, Plants, Animals and Places</p>
+			</header>
+			<p>Mohave Nature is a site devoted to the plants, animals, places and history of the Mohave Desert.</p>
+		</div>
+		<span class="image object">
+			<img src="{{ site.baseurl }}/images/mohave-headline.jpg" alt="" />
+		</span>
+	</section>
+{% comment %}
+<!-- Section -->
+	<section>
+		<header class="major">
+			<h2>Components</h2>
+		</header>
+		{% include components/features.html features=page.features %}
+	</section>
+{% endcomment %}
+<!-- Section -->
+	<section>
+		<header class="major">
+			<h2>Categories</h2>
+		</header>
+		{% include components/posts1.html posts=page.posts %}
+	</section>
