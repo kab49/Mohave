@@ -5,7 +5,7 @@ scientific: "Clangula hyemalis"
 intro: "The Long-tailed duck (Clangula hyemalis), formerly known as the oldsquaw, is a medium-sized sea duck that breeds in the tundra and taiga regions of the arctic and winters along the northern coastlines of the Atlantic and Pacific Oceans. It is the only member of the genus Clangula. Adults have white underparts, though the rest of the plumage goes through a complex moulting process. The male has a long pointed tail and a dark grey bill crossed by a pink band. In winter, the male has a dark cheek patch on a mainly white head and neck, a dark breast and mostly white body. In summer, the male is dark on the head, neck and back with a white cheek patch. The female has a brown back and a relatively short pointed tail. In winter, the female's head and neck are white with a dark crown. In summer, the head is dark. Juveniles resemble adult females in autumn plumage, though with a lighter, less distinct cheek patch."
 image: /images/anseriformes/long-tailed-duck.jpg
 catagory: anseriformes
-permalink: /mohave-birds/anseriformes/long-tailed-duck.html
+permalink: /mojave-birds/anseriformes/long-tailed-duck.html
 
 features:
 - icon: fa-tree

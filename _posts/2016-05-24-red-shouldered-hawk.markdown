@@ -5,7 +5,7 @@ scientific: "Buteo lineatus"
 intro: "The Red-shouldered Hawk is named for its reddish upper wing coverts, or shoulders. The lineatus in its name means striped in Latin, referring to its black-and-white-banded tail and finely barred reddish breast. Another distinctive field mark: translucent wing crescents, or windows, near the base of the wingtips, visible when the bird soars or glides overhead. This attractive raptor is smaller and slimmer than the more widespread Red-tailed Hawk, almost resembling an accipiter such as the Cooper's Hawk. The male and female red-shouldered hawk have similar plumage, but the female is noticeably larger than the male. There are 5 subspecies, the range of B.I. elegans is southern Oregan to Baja California."
 image: /images/accipitriformes/red-shouldered-hawk.jpg
 catagory: accipitriformes
-permalink: /mohave-birds/accipitriformes/red-shouldered-hawk.html
+permalink: /mojave-birds/accipitriformes/red-shouldered-hawk.html
 
 features:
 - icon: fa-tree

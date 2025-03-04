@@ -1,0 +1,121 @@
+---
+layout: page
+
+page-name: Mojave Mammals
+order: Cardinalidae
+intro: "Members of this group are beloved for their brilliant red, yellow, or blue plumages seen in many of the breeding males in this family. Most species are monogamous breeders that nest in open-cup nests, with parents taking turns incubating the nest and taking care of their young. Most are arboreal species."
+page-image: /images/mojave-mammals/coyote1.jpg
+
+
+
+
+mammal_array:
+- image: /images/mojave-mammals/desert-cottontail.jpg
+  title: Desert Cottontail (Sylvilagus audobonii)
+  sub: Rabbits and Hares (Lagomorpha)
+  url: construction.html
+- image: /images/mojave-mammals/black-tailed-jackrabbit.jpg
+  title: Black-tailed Jackrabbit (Lepus californicus)
+  sub: #
+  url: construction.html
+- image: /images/mojave-mammals/brush-rabbit.jpg
+  title: Brush Rabbit (Sylvilagus bachmani)
+  sub: #
+  url: construction.html
+- image: /images/mojave-mammals/california-ground-squirrel.jpg
+  title: California Ground Squirrel (Otospermophilus beecheyi)
+  sub: Squirrels (Rodentia)
+  url: construction.html
+- image: /images/mojave-mammals/golden-mantled-ground-squirrel.jpg
+  title: Golden-mantled Ground Squirrel (Callospermophilus lateralis)
+  sub: #
+  url: construction.html
+- image: /images/mojave-mammals/round-tailed-ground-squirrel.jpg
+  title: Round-tailed Ground Squirrel (Xerospermophilus tereticaudus)
+  sub: #
+  url: construction.html
+- image: /images/mojave-mammals/white-tailed-antelope-squirrel.jpg
+  title: White-tailed Antelope Squirrel (Ammospermophilus leucurus)
+  sub: #
+  url: construction.html
+- image: /images/mojave-mammals/north-american-beaver.jpg
+  title: North-americam Beaver (Castor canadensis)
+  sub: Beavers (Rodentia)
+  url: construction.html
+- image: /images/mojave-mammals/northern-pocket-gopher.jpg
+  title: Northern Pocket Gopher (Thomomys talpoides)
+  sub: Pocket Gopher (Rodentia)
+  url: construction.html
+- image: /images/mojave-mammals/coyote1.jpg
+  title: Coyote (Canis latrans)
+  sub: Canids (Carnivora)
+  url: construction.html
+- image: /images/mojave-mammals/brown-bear.jpg
+  title: Brown Bear (Ursus arctos)
+  sub: Bears (Carnivora)
+  url: construction.html
+- image: /images/mojave-mammals/racoon.jpg
+  title: Racoon (Procyon lotor)
+  sub: Procyonids (Carnivora)
+  url: construction.html
+- image: /images/mojave-mammals/elk.jpg
+  title: Elk (Cervus canadensis)
+  sub: Deer (Artiodactyls)
+  url: construction.html
+- image: /images/mojave-mammals/mule-deer.jpg
+  title: Mule Deer (Odocoileus hemionus)
+  sub: #
+  url: construction.html
+- image: /images/mojave-mammals/desert-bighorn-sheep.jpg
+  title: Desert Bighorn Sheep (Ovis canadensis nelsoni)
+  sub: Bovid (Artiodactyls)
+  url: construction.html
+
+
+
+---
+
+
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1><br>{{ page.page-name }}<br />
+     </h1>
+     <p>{{ page.order }}</p>
+    </header>
+    <p>{{ page.intro }}</p>
+  </div>
+  <span class="image object">
+    <img src="{{ page.page-image }}" alt="" />
+  </span>
+</section>
+
+<!-- Section -->
+
+
+{% for post in page.mammal_array %}
+
+{% if post.sub.size > 1 %}
+
+
+
+<section>
+  <header class="major">
+    <h2>{{ post.sub }}</h2>
+  </header>
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+{% endif %}
+ 
+  
+      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
+
+
+{% endfor %}
+</section>
+
+
+

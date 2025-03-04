@@ -62,7 +62,7 @@
 			height: 3.65em;
 			line-height: 3.65em;
 		}
-
+	
 		&.primary {
 			background-color: _palette(accent);
 			box-shadow: none;
@@ -76,6 +76,7 @@
 				background-color: darken(_palette(accent), 3);
 			}
 		}
+
 
 		&.disabled,
 		&:disabled {

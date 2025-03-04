@@ -6,7 +6,7 @@ intro: "The grassy 10 acres of Hemenway Valley Park are meant for playing outsid
 date:  2016-06-06 
 image: /images/hotspots/hemenway-park.jpg
 catagory: hotspots
-permalink: //mohave-birding-hotspots/hemenway-park.html
+permalink: //mojave-birding-hotspots/hemenway-park.html
 
 features:
 - icon: fa-question

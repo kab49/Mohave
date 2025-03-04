@@ -1,0 +1,70 @@
+---
+layout: page
+
+my_posts_array:
+- image: images/mojave-flowers-purple/purple1.jpg
+  title: Purple Flowers
+  excerpt: Probably the best all aroud hotspot in Southern Nevada
+  url: mojave-flowers-purple.html
+- image: /images/little-petroglyph-canyon/science-of-petroglyphs.jpg
+  title: Flowers by Common Name
+  excerpt: Probably the best location in North Las Vegas
+  url: construction.html
+- image: /images/mojave-native-people.jpg
+  title: Flowers by Genus
+  excerpt: A fairly remote but interesting location
+  url: construction.html
+- image: /images/little-petroglyph-canyon/coso-native-people.jpg
+  title: Mountain  Flowers
+  excerpt: Great place to photograph ducks
+  url: construction.html
+- image: /images/little-petroglyph-canyon/goodsprings-petroglyphs.jpg
+  title: Desert Flowers
+  excerpt: A fairly remote but interesting location
+  url: construction.html
+- image: /images/little-petroglyph-canyon/costa-rica-jaguar-metate.jpg
+  title: Flowers of Cedar Breaks (Utah)
+  excerpt: Desert Bighorned Sheep
+  url: construction.html
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Flowers<br />
+        </h1>
+        <p>Wildflowers by Color</p>
+      </header>
+      <p>Some of the oldest stone tools in North America have been found in the mojave Desert.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-flowers1.jpg" alt="" />
+    </span>
+  </section>
+
+  <!-- Section -->
+   <section>
+    <header class="major">
+      <h2>Flower Color</h2>
+  </header>
+
+  <ul class="actions">
+    <li><a href="mojave-flowers-white.html" class="button">White</a></li>
+    <li><a href="#" class="button default" style="background-color: yellow;">Yellow</a></li>
+    <li><a href="#" class="button primary" style="background-color: orange;">Orange</a></li>
+    <li><a href="#" class="button primary" style="background-color: red;">Red</a></li>
+    <li><a href="#" class="button primary" style="background-color: green;">Green</a></li>
+    <li><a href="#" class="button primary" style="background-color: blue;">Blue</a></li>
+    <li><a href="mojave-flowers-purple.html" class="button primary" style="background-color: purple;">Purple</a></li>
+  </ul>
+
+
+
+  <div class="box alt">
+  <div class="row gtr-50 gtr-uniform">
+    {% include components/posts2.html posts2=page.my_posts_array %}
+  </div>
+  </div>
+  </section>
+  

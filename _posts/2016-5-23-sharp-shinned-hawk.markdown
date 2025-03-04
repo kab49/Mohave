@@ -6,7 +6,7 @@ intro: "Sharp-shinned Hawks are the smallest hawk in North America (males). They
 date:   2016-05-23 12:34:56 -0600
 image: /images/accipitriformes/sharp-shinned-hawk.jpg
 catagory: accipitriformes
-permalink: /mohave-birds/accipitriformes/sharp-shinned-hawk.html
+permalink: /mojave-birds/accipitriformes/sharp-shinned-hawk.html
 
 features:
 - icon: fa-tree

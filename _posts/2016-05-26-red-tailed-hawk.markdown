@@ -5,7 +5,7 @@ scientific: "Buteo jamaicensis"
 intro: "The red-tailed hawk is a raptor that breeds throughout most of North America, from the interior of Alaska and northern Canada to as far south as Panama and the West Indies. It is one of the most common members within the genus of Buteo in North America or worldwide. The red-tailed hawk is one of three species colloquially known in the United States as the chickenhawk. Red-tailed hawk plumage can be variable, depending on the subspecies and the region. These color variations are morphs, and are not related to molting. The western North American population (Bj caluru) is the most variable subspecies and has three main color morphs: light, dark, and intermediate or rufous. The dark and intermediate morphs constitute 10–20% of the population in the Western United States, but seem to constitute only 1–2% in western Canada."
 image: /images/accipitriformes/red-tailed-hawk.jpg
 catagory: accipitriformes
-permalink: /mohave-birds/accipitriformes/red-tailed-hawk.html
+permalink: /mojave-birds/accipitriformes/red-tailed-hawk.html
 
 features:
 - icon: fa-tree

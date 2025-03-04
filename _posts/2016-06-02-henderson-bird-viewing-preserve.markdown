@@ -6,7 +6,7 @@ intro: "For more than 20 years, local birders and nature lovers have visited the
 date:   2016-06-02 12:34:56 -0600
 image: /images/bvp.jpg
 catagory: hotspots
-permalink: //mohave-birding-hotspots/henderson-bird-viewing-preserve.html
+permalink: //mojave-birding-hotspots/henderson-bird-viewing-preserve.html
 
 features:
 - icon: fa-question

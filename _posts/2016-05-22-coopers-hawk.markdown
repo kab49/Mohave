@@ -6,7 +6,7 @@ intro: "Cooper's hawk (Astur cooperii) is a medium-sized hawk native to the Nort
 date:   2016-05-22 12:34:56 -0600
 image: /images/accipitriformes/coopers-hawk.jpg
 catagory: accipitriformes
-permalink: //mohave-birds/accipitriformes/coopers-hawk.html
+permalink: //mojave-birds/accipitriformes/coopers-hawk.html
 
 features:
 - icon: fa-tree

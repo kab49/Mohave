@@ -1,0 +1,74 @@
+---
+layout: page
+
+
+purple_array:
+- image: /images/mojave-flowers-purple/purple1.jpg
+  title: Rydberg Penstemon (Penstemon rydbergii)
+  sub: Purple
+  url: construction.html
+- image: /images/mojave-flowers-purple/purple2.jpg
+  title: Neotropic Purple (Nannopterum brasilianum)
+  sub: Purple
+  url: construction.html
+- image: /images/mojave-flowers-purple/purple3.jpg
+  title: Magnificent Frigatebird (Fregata magnificens)
+  sub: Purple
+  url: construction.html
+- image: /images/mojave-flowers-purple/purple4.jpg
+  title: Double-crested Purple (Nannopterum auritum)
+  sub: Purple
+  url: construction.html
+- image: /images/mojave-flowers-purple/purple5.jpg
+  title: Neotropic Purple (Nannopterum brasilianum)
+  sub: Purple
+  url: construction.html
+- image: /images/mojave-flowers-purple/purple6.jpg
+  title: Neotropic Purple (Nannopterum brasilianum)
+  sub: Purple
+  url: construction.html
+- image: /images/mojave-flowers-purple/purple6.jpg
+  title: Neotropic Purple (Nannopterum brasilianum)
+  sub: Purple
+  url: construction.html
+
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br>Purple Mojave Flowers<br />
+       </h1>
+       <p>Suliformes</p>
+      </header>
+      <p>Purple flowers are pretty.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-flowers1.jpg" alt="" />
+    </span>
+</section>
+
+  
+
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Purple Flowers</h2>
+  </header>
+
+  
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      
+      {% for post in page.purple_array %}
+    
+      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" title="{{ post.title }}"/></figure></a></span></div>
+
+    
+      {% endfor %}
+    
+        
+</section>
