@@ -1,0 +1,88 @@
+{% comment %}
+
+	Editorial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+
+	Name:
+
+		Features
+
+	Description:
+
+		Generates a grid of featured content.
+
+	Example:
+
+		---
+		my_features_array:
+		- icon: fa-envelope
+			title: Magna feugiat lorem
+			excerpt: Nunc blandit nisi ligula magna dolor sit.
+		- icon: fa-diamond
+			title: Lorem ipsum dolor
+			excerpt: Nunc blandit nisi ligula magna dolor sit.
+			url: http://example.com
+
+		---
+
+        products:
+        - top-level: Product One
+          arbitrary: Value
+          nested-products:
+           - nested: Associated Product
+             sub-arbitrary: Associated Value
+           - nested: Another associate
+             sub-arbitrary: with its associated value
+        - top-level: Product Two
+          arbitrary: Value
+          nested-products:
+           - nested: nested product Two
+             sub-arbitrary: Two's nested's associate value        
+
+		{% include components/features.html features=page.my_features_array %}
+
+{% endcomment %}
+
+<!-- Features -->
+	<div class="features">
+
+		{% for feature in include.features %}
+
+			<article>
+
+				{% if feature.icon %}
+					<span class="icon {{ feature.icon }}"></span>
+				{% endif %}
+
+				<div class="content">
+					<h3>{{ feature.title }}</h3>
+					<p>{{ feature.excerpt | remove: "<p>" | remove: "</p>" }}</p>
+                        <ul>
+                        {% for nestedexerpt in feature.exerpt %}  <li>{{ nestedexerpt.name1 }}: {{ nestedexerpt.value1 }}</li>
+                        {% endfor %}</ul>
+
+                        </ul>
+					{% if feature.url %}
+						<ul class="actions">
+							<li><a class="button" href="#">Read More</a></li>
+						</ul>
+                        
+					{% endif %}
+
+				</div>
+			</article>
+
+		{% endfor %}
+
+	</div>
+
+    <h4>products:</h4>
+    <ul>{% for product in page.products %}
+      <li>{{ product.top-level }}: {{ product.arbitrary }}{% if product.nested-products %}
+        <ul>
+        {% for nestedproduct in product.nested-products %}  <li>{{ nestedproduct.nested }}: {{ nestedproduct.sub-arbitrary }}</li>
+        {% endfor %}</ul>
+      {% endif %}</li>{% endfor %}
+    </ul>
+    

@@ -1,0 +1,54 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Riparian Plants<br />
+       </h1>
+       <p>Springs, Streams and Dry Washes</p>
+      </header>
+      <p>Mojave desert shrubs thrive in a variety of habitats, including chaparral slopes, forests, canyons, and along riverbanks. The Mojave Desert can be divided into different life zones, each with its own characteristic shrub communities. The Mojave Desert's six vegetation zones, from lower to higher elevations, include Saltbrush Community, Creosote Bush Community, Joshua Tree Woodland, Blackbrush Community, Pinyon-Juniper Woodland, and Pine-Fir Forest. 
+
+        </p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-plants-riparian.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Riparian Plants</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type=="Shrubs" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>
+

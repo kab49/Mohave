@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-	<title>Mohave Nature</title>
+	<title>Mojave Nature</title>
 	<description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
 	<link>http://localhost:4000/</link>
 	<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-	<pubDate>Wed, 05 Mar 2025 15:12:35 -0800</pubDate>
-	<lastBuildDate>Wed, 05 Mar 2025 15:12:35 -0800</lastBuildDate>
+	<pubDate>Tue, 25 Mar 2025 14:10:46 -0700</pubDate>
+	<lastBuildDate>Tue, 25 Mar 2025 14:10:46 -0700</lastBuildDate>
 	<generator>Jekyll v4.3.4</generator>
 
 	
 
 		<item>
-			<title></title>
-			<description>&lt;p&gt;
-Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
+			<title>Dieteria bigelovii var. commixta</title>
+			<description>&lt;p&gt;&lt;/p&gt;
 
 </description>
-			<pubDate>Wed, 05 Mar 2025 15:12:35 -0800</pubDate>
-			<link>http://localhost:4000/2025/03/05/2016-05-22-sed-nisl-adipiscing.html</link>
-			<guid isPermaLink="true">http://localhost:4000/2025/03/05/2016-05-22-sed-nisl-adipiscing.html</guid>
+			<pubDate>Mon, 24 Mar 2025 00:00:00 -0700</pubDate>
+			<link>http://localhost:4000/mojave-plants-perennials/dieteria-bigelovii-commixta.html</link>
+			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/dieteria-bigelovii-commixta.html</guid>
 
 			
 
@@ -31,12 +30,45 @@ Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum 
 	
 
 		<item>
-			<title></title>
-			<description>&lt;p&gt;test&lt;/p&gt;
+			<title>Aspen Bluebells</title>
+			<description>
 </description>
-			<pubDate>Wed, 05 Mar 2025 15:12:35 -0800</pubDate>
-			<link>http://localhost:4000/2025/03/05/2016-05-11-feugiat-nisl-tempus-lorem.html</link>
-			<guid isPermaLink="true">http://localhost:4000/2025/03/05/2016-05-11-feugiat-nisl-tempus-lorem.html</guid>
+			<pubDate>Fri, 21 Mar 2025 00:00:00 -0700</pubDate>
+			<link>http://localhost:4000/mojave-plants-trees/parkinsonia-florida.html</link>
+			<guid isPermaLink="true">http://localhost:4000/mojave-plants-trees/parkinsonia-florida.html</guid>
+
+			
+
+			
+
+		</item>
+
+	
+
+		<item>
+			<title>Penstemon rydbergii</title>
+			<description>&lt;p&gt;&lt;/p&gt;
+
+</description>
+			<pubDate>Tue, 18 Mar 2025 00:00:00 -0700</pubDate>
+			<link>http://localhost:4000/mojave-plants-perennials/penstemon-rydbergii.html</link>
+			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/penstemon-rydbergii.html</guid>
+
+			
+
+			
+
+		</item>
+
+	
+
+		<item>
+			<title>Aspen Bluebells</title>
+			<description>
+</description>
+			<pubDate>Tue, 18 Mar 2025 00:00:00 -0700</pubDate>
+			<link>http://localhost:4000/mojave-plants-perennials/mertensia-arizonica.html</link>
+			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/mertensia-arizonica.html</guid>
 
 			
 
@@ -70,6 +102,23 @@ Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum 
 			<pubDate>Sat, 11 Jan 2025 00:00:00 -0800</pubDate>
 			<link>http://localhost:4000/mojave-birds/anseriformes/long-tailed-duck.html</link>
 			<guid isPermaLink="true">http://localhost:4000/mojave-birds/anseriformes/long-tailed-duck.html</guid>
+
+			
+
+			
+
+		</item>
+
+	
+
+		<item>
+			<title>Phacelia fremontii</title>
+			<description>&lt;p&gt;&lt;/p&gt;
+
+</description>
+			<pubDate>Thu, 14 Mar 2024 00:00:00 -0700</pubDate>
+			<link>http://localhost:4000/mojave-plants-annuals/phacelia-fremontii.html</link>
+			<guid isPermaLink="true">http://localhost:4000/mojave-plants-annuals/phacelia-fremontii.html</guid>
 
 			
 
@@ -139,60 +188,6 @@ Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum 
 			<pubDate>Fri, 09 Sep 2016 18:41:07 -0700</pubDate>
 			<link>http://localhost:4000/2016/09/09/amet-consectetur.html</link>
 			<guid isPermaLink="true">http://localhost:4000/2016/09/09/amet-consectetur.html</guid>
-
-			
-
-			
-
-		</item>
-
-	
-
-		<item>
-			<title>Sed mattis nunc lorem</title>
-			<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus quis voluptatem numquam quisquam, placeat, aut sit, non porro, nulla ea ullam voluptas. Illo numquam, autem esse, ad tempora in. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat.&lt;/p&gt;
-
-&lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
-</description>
-			<pubDate>Tue, 30 Aug 2016 18:41:07 -0700</pubDate>
-			<link>http://localhost:4000/2016/08/30/sed-mattis-nunc-lorem.html</link>
-			<guid isPermaLink="true">http://localhost:4000/2016/08/30/sed-mattis-nunc-lorem.html</guid>
-
-			
-
-			
-
-		</item>
-
-	
-
-		<item>
-			<title>Amet dolor sed mattis lorem</title>
-			<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus quis voluptatem numquam quisquam, placeat, aut sit, non porro, nulla ea ullam voluptas. Illo numquam, autem esse, ad tempora in. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat.&lt;/p&gt;
-
-&lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
-</description>
-			<pubDate>Fri, 22 Jul 2016 18:41:07 -0700</pubDate>
-			<link>http://localhost:4000/2016/07/22/amet-dolor-sed-mattis-lorem.html</link>
-			<guid isPermaLink="true">http://localhost:4000/2016/07/22/amet-dolor-sed-mattis-lorem.html</guid>
-
-			
-
-			
-
-		</item>
-
-	
-
-		<item>
-			<title>Tempus dolor magna</title>
-			<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus quis voluptatem numquam quisquam, placeat, aut sit, non porro, nulla ea ullam voluptas. Illo numquam, autem esse, ad tempora in. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat.&lt;/p&gt;
-
-&lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
-</description>
-			<pubDate>Mon, 04 Jul 2016 11:34:56 -0700</pubDate>
-			<link>http://localhost:4000/2016/07/04/tempus-dolor-magna.html</link>
-			<guid isPermaLink="true">http://localhost:4000/2016/07/04/tempus-dolor-magna.html</guid>
 
 			
 

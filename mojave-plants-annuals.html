@@ -1,0 +1,52 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Annual Plants<br />
+       </h1>
+       <p>Annual Herbs/Forbs</p>
+      </header>
+      <p>Most spring wildflowers in the desert are annuals. Strict germination requirements are a kind of insurance for the seed, keeping it from germinating when it isn't likely to survive to maturity. Annual wildflowers are drought escapers, able to wait out years of drought as dormant seeds. Spring blossoms will carpet the desert only in those years having the right combination of rain and warmth. But it is probable that even in a good year some seeds of most species remain dormant underground, a "seed bank" to ensure future survival.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-flowers-desert.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Annual Plants</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type=="Annual" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>
+

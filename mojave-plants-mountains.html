@@ -1,0 +1,51 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Mountain Plants<br />
+       </h1>
+       <p>Native and Invasive Grass</p>
+      </header>
+      <p></p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-mountain-plants.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Mountain Plants</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type=="Mountains" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>

@@ -1,0 +1,130 @@
+---
+layout: page
+
+---
+
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1><br>{{ page.title }}<br />
+         </h1>
+            <p>{{ page.common }}</p>
+        </header>
+        <p>{{ page.intro }}</p>
+    </div>
+    <span class="image object">
+        <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+    </span>
+</section>
+
+
+{{ content }}
+
+<<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Plant Data</h2>
+  </header>
+  
+
+<!-- Features -->
+<div class="features">
+    <article>  
+        <span class="icon fa-sitemap"></span>
+
+      <div class="content">
+        <h3>Names and Taxonomy</h3>
+        <ul class="alt">
+          <li><b>Common Names:</b> {{ page.common-names }}</li>
+          <li><b>Synonyms:</b> {{ page.synonyms }}</li>
+          <li><b>Family:</b> {{ page.family }}</li>
+        </ul>
+      </div>
+    </article>
+
+    <article>  
+      <span class="icon fa-seedling"></span>
+
+    <div class="content">
+      <h3>Habit and Size</h3>
+        <ul class="alt">
+          <li><b>Type:</b> {{ page.type }}</li>
+          <li><b>Habit:</b> {{ page.habit }}</li>
+          <li><b>Shape:</b> {{ page.shape }}</li>
+          <li><b>Size:</b> {{ page.size }}</li>
+          <li><b>Stem:</b> {{ page.stem }}</li>
+        </ul>
+      </div>
+    </article>
+
+    <article>  
+      <span class="icon fa-leaf"></span>    
+
+    <div class="content">
+      <h3>Leaves</h3>
+        <ul class="alt">
+          <li><b>Color:</b> {{ page.leaf-color }}</li>
+          <li><b>Shape:</b> {{ page.leaf-shape }}</li>
+          <li><b>Veins:</b> {{ page.leaf-veins }}</li>
+          <li><b>Edge:</b> {{ page.leaf-edge }}</li>
+          <li><b>Arrangement:</b> {{ page.leaf-arrangement }}</li>
+          <li><b>Surface:</b> {{ page.leaf-surface }}</li>
+        </ul>
+      </div>
+    </article>
+
+    <article>  
+      <span class="icon fa-lemon"></span>    
+
+    <div class="content">
+      <h3>Flowers and Fruit</h3>
+        <ul class="alt">
+          <li><b>Flower Color:</b> {{ page.flower-color }}</li>
+          <li><b>Flower Size:</b> {{ page.flower-size }}</li>
+          <li><b>Number of Petals:</b> {{ page.petals }}</li>
+          <li><b>Bloom:</b> {{ page.bloom }}</li>
+          <li><b>Fruit:</b> {{ page.fruit }}</li>
+        </ul>
+      </div>
+    </article>
+
+    <article>  
+      <span class="icon fa-cloud-sun"></span>    
+
+    <div class="content">
+      <h3>Habitat and Growing Conditions</h3>
+        <ul class="alt">
+          <li><b>Water Use:</b> {{ page.water-use }}</li>
+          <li><b>Light:</b> {{ page.light }}</li>
+          <li><b>Soil:</b> {{ page.soil }}</li>
+          <li><b>Habitat:</b> {{ page.habitat }}</li>
+        </ul>
+      </div>
+    </article>
+
+    <article>  
+      <span class="icon fa-map-marked-alt"></span>    
+
+    <div class="content">
+      <h3>Distribution</h3>
+        <ul class="alt">
+          <li><b>Distribution:</b> {{ page.distribution }}</li>
+          <li><b>Native Distribution:</b> {{ page.native }}</li>
+          <li><b>Seen:</b> {{ page.seen }}</li>
+          <li><b>Growing Zones:</b> {{ page.zones }}</li>
+          <li><b>Elevation:</b> {{ page.elevation }}</li>
+        </ul>
+      </div>
+    </article>
+</section>
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Photographs</h2>
+    </header>
+    {% include components/posts1.html posts=page.my_posts_array %}
+</section>
+
