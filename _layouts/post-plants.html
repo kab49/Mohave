@@ -22,7 +22,7 @@ layout: page
 
 {{ content }}
 
-<<!-- Section -->
+<!-- Section -->
 <section>
   <header class="major">
       <h2>Plant Data</h2>
@@ -40,6 +40,7 @@ layout: page
           <li><b>Common Names:</b> {{ page.common-names }}</li>
           <li><b>Synonyms:</b> {{ page.synonyms }}</li>
           <li><b>Family:</b> {{ page.family }}</li>
+          <li><b>Genus Information:</b> {{ page.genus }}</li>
         </ul>
       </div>
     </article>
@@ -50,7 +51,7 @@ layout: page
     <div class="content">
       <h3>Habit and Size</h3>
         <ul class="alt">
-          <li><b>Type:</b> {{ page.type }}</li>
+          <li><b>Duration:</b> {{ page.type }}</li>
           <li><b>Habit:</b> {{ page.habit }}</li>
           <li><b>Shape:</b> {{ page.shape }}</li>
           <li><b>Size:</b> {{ page.size }}</li>
@@ -67,10 +68,9 @@ layout: page
         <ul class="alt">
           <li><b>Color:</b> {{ page.leaf-color }}</li>
           <li><b>Shape:</b> {{ page.leaf-shape }}</li>
-          <li><b>Veins:</b> {{ page.leaf-veins }}</li>
           <li><b>Edge:</b> {{ page.leaf-edge }}</li>
           <li><b>Arrangement:</b> {{ page.leaf-arrangement }}</li>
-          <li><b>Surface:</b> {{ page.leaf-surface }}</li>
+          <li><b>Leaf Retention:</b> {{ page.leaf-retention }}</li>
         </ul>
       </div>
     </article>
@@ -81,6 +81,7 @@ layout: page
     <div class="content">
       <h3>Flowers and Fruit</h3>
         <ul class="alt">
+          <li><b>Sex:</b> {{ page.sex }}</li>
           <li><b>Flower Color:</b> {{ page.flower-color }}</li>
           <li><b>Flower Size:</b> {{ page.flower-size }}</li>
           <li><b>Number of Petals:</b> {{ page.petals }}</li>
@@ -111,9 +112,7 @@ layout: page
       <h3>Distribution</h3>
         <ul class="alt">
           <li><b>Distribution:</b> {{ page.distribution }}</li>
-          <li><b>Native Distribution:</b> {{ page.native }}</li>
           <li><b>Seen:</b> {{ page.seen }}</li>
-          <li><b>Growing Zones:</b> {{ page.zones }}</li>
           <li><b>Elevation:</b> {{ page.elevation }}</li>
         </ul>
       </div>
