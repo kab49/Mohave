@@ -4,10 +4,10 @@
 	<title>Mojave Nature</title>
 	<description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-	<link>http://localhost:4000/</link>
-	<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-	<pubDate>Wed, 28 May 2025 14:42:09 -0700</pubDate>
-	<lastBuildDate>Wed, 28 May 2025 14:42:09 -0700</lastBuildDate>
+	<link>http://example.com/</link>
+	<atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+	<pubDate>Wed, 28 May 2025 17:24:36 -0700</pubDate>
+	<lastBuildDate>Wed, 28 May 2025 17:24:36 -0700</lastBuildDate>
 	<generator>Jekyll v4.3.4</generator>
 
 	
@@ -18,8 +18,8 @@
 
 </description>
 			<pubDate>Wed, 16 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-cactus/ferocactus-cylindraceus.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-cactus/ferocactus-cylindraceus.html</guid>
+			<link>http://example.com/mojave-plants-cactus/ferocactus-cylindraceus.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-cactus/ferocactus-cylindraceus.html</guid>
 
 			
 
@@ -35,8 +35,8 @@
 
 </description>
 			<pubDate>Tue, 15 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-annuals/phacelia-fremontii.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-annuals/phacelia-fremontii.html</guid>
+			<link>http://example.com/mojave-plants-annuals/phacelia-fremontii.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-annuals/phacelia-fremontii.html</guid>
 
 			
 
@@ -52,8 +52,8 @@
 
 </description>
 			<pubDate>Tue, 15 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-annuals/lactuca-serriola.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-annuals/lactuca-serriola.html</guid>
+			<link>http://example.com/mojave-plants-annuals/lactuca-serriola.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-annuals/lactuca-serriola.html</guid>
 
 			
 
@@ -69,8 +69,8 @@
 
 </description>
 			<pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-perennials/cirsium-clavatum.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/cirsium-clavatum.html</guid>
+			<link>http://example.com/mojave-plants-perennials/cirsium-clavatum.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-perennials/cirsium-clavatum.html</guid>
 
 			
 
@@ -86,8 +86,8 @@
 
 </description>
 			<pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-perennials/verbascum-thapsus.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/verbascum-thapsus.html</guid>
+			<link>http://example.com/mojave-plants-perennials/verbascum-thapsus.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-perennials/verbascum-thapsus.html</guid>
 
 			
 
@@ -103,8 +103,8 @@
 
 </description>
 			<pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-perennials/thelypodium-integrifolium.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/thelypodium-integrifolium.html</guid>
+			<link>http://example.com/mojave-plants-perennials/thelypodium-integrifolium.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-perennials/thelypodium-integrifolium.html</guid>
 
 			
 
@@ -120,8 +120,8 @@
 
 </description>
 			<pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-perennials/stanleya-pinnata.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/stanleya-pinnata.html</guid>
+			<link>http://example.com/mojave-plants-perennials/stanleya-pinnata.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-perennials/stanleya-pinnata.html</guid>
 
 			
 
@@ -137,8 +137,8 @@
 
 </description>
 			<pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-perennials/solidago-multiradiata.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/solidago-multiradiata.html</guid>
+			<link>http://example.com/mojave-plants-perennials/solidago-multiradiata.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-perennials/solidago-multiradiata.html</guid>
 
 			
 
@@ -154,8 +154,8 @@
 
 </description>
 			<pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-perennials/senna-covesii.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/senna-covesii.html</guid>
+			<link>http://example.com/mojave-plants-perennials/senna-covesii.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-perennials/senna-covesii.html</guid>
 
 			
 
@@ -171,8 +171,8 @@
 
 </description>
 			<pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-			<link>http://localhost:4000/mojave-plants-perennials/rumex-obtusifolius.html</link>
-			<guid isPermaLink="true">http://localhost:4000/mojave-plants-perennials/rumex-obtusifolius.html</guid>
+			<link>http://example.com/mojave-plants-perennials/rumex-obtusifolius.html</link>
+			<guid isPermaLink="true">http://example.com/mojave-plants-perennials/rumex-obtusifolius.html</guid>
 
 			
 
