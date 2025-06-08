@@ -42,11 +42,11 @@ elevation: 1,000 to 6,000 feet (300-2000 m)
 my_posts_array:
 - image: /images/mojave-plants-perennials/chamaesyce-albomarginata-1.jpg
   title: Whitemargin Sandmat (Chamaesyce albomarginata)
-  excerpt: UT
+  excerpt: Oak Creek
   url: "/construction.html"
 - image: /images/mojave-plants-perennials/chamaesyce-albomarginata-2.jpg
   title: Whitemargin Sandmat (Chamaesyce albomarginata)
-  excerpt: UT
+  excerpt: Death Valley
   url: "/construction.html"
  
 ---

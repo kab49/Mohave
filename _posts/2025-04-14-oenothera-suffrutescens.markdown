@@ -48,11 +48,18 @@ my_posts_array:
   title: Scarlet Bee Blossom (Oenothera suffrutescens)
   excerpt: Spring Mountain Pass, Las Vegas (September 12)
   url: "/construction.html"
-- image: /images/mojave-plants-perennials/oenothera-suffrutescens-2.jpg
+- image: /images/mojave-plants-perennials/oenothera-suffrutescens-3.jpg
   title: Scarlet Bee Blossom (Oenothera suffrutescens)
   excerpt: Spring Mountain Pass, Las Vegas (September 12)
   url: "/construction.html"
- 
+- image: /images/mojave-plants-perennials/oenothera-suffrutescens-4.jpg
+  title: Scarlet Bee Blossom (Oenothera suffrutescens)
+  excerpt: Red Rock Canyon
+  url: "/construction.html"
+- image: /images/mojave-plants-perennials/oenothera-suffrutescens-5.jpg
+  title: Scarlet Bee Blossom (Oenothera suffrutescens)
+  excerpt: Red Rock Canyon
+  url: "/construction.html"
 ---
   
   

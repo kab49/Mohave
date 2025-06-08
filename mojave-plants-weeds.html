@@ -1,0 +1,51 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Invasive Plants<br />
+       </h1>
+       <p>Invasive, Noxious Introduced Plants</p>
+      </header>
+      <p>Invasive plants are non-native plants that grow quickly and aggressively, spreading and displacing other plants. They are usually introduced by people, either by accident or on purpose, into a region far from their native habitat. Invasive plants pose one of the greatest threats to park resources. They establish themselves in locations where native plants would normally grow, creating dire conditions for many native species. Invasive plants can steal water and other resources from the native plants and may increase the likelihood of wildfires, often making it more difficult for native plants to survive.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-plants-invasive.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Invasive Plants</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type=="Weed" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>

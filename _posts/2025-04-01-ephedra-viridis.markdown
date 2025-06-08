@@ -41,11 +41,11 @@ elevation: 3000-7500 feet
 my_posts_array:
 - image: /images/mojave-plants-shrubs/ephedra-viridis-1.jpg
   title: Green Mormon Tea (Ephedra viridis)
-  excerpt: Red Rock Canyon
+  excerpt: Ely, NV
   url: "/construction.html"
 - image: /images/mojave-plants-shrubs/ephedra-viridis-2.jpg
   title: Green Mormon Tea (Ephedra viridis)
-  excerpt: Red Rock Canyon
+  excerpt: Ely, NV
   url: "/construction.html"
  
 ---

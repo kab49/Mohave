@@ -44,10 +44,7 @@ my_posts_array:
   title: Wright’s Buckwheat (Eriogonum wrightii var subscaposum)
   excerpt: UT
   url: "/construction.html"
-- image: /images/mojave-plants-perennials/eriogonum-wrightii-2.jpg
-  title: Wright’s Buckwheat (Eriogonum wrightii var subscaposum)
-  excerpt: UT
-  url: "/construction.html"
+
  
 ---
   
