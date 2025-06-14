@@ -1,0 +1,38 @@
+---
+layout: page
+---
+<!-- Banner -->
+
+    <h2>Yellow Flowers</h2>   
+
+
+<ul class="actions">
+  <li><a href="mojave-flowers-white.html" class="button">White</a></li>
+  <li><a href="mojave-flowers-yellow.html" class="button default" style="background-color: yellow;">Yellow</a></li>
+  <li><a href="mojave-flowers-orange.html" class="button primary" style="background-color: orange;">Orange</a></li>
+  <li><a href="mojave-flowers-red.html" class="button primary" style="background-color: red;">Red</a></li>
+  <li><a href="mojave-flowers-green.html" class="button primary" style="background-color: green;">Green</a></li>
+  <li><a href="mojave-flowers-blue.html" class="button primary" style="background-color: blue;">Blue</a></li>
+  <li><a href="mojave-flowers-purple.html" class="button primary" style="background-color: purple;">Purple</a></li>
+</ul>
+
+
+<!-- Section -->
+<section>
+
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+
+{% assign plantlist = site.data.plants11 | sort: "name" %}
+  {% for item in plantlist %}
+    {% if item.color contains "yellow" %}
+
+      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+    {% endif %}
+  {% endfor %}
+    
+        
+</section>

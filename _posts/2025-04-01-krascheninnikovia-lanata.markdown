@@ -4,7 +4,7 @@ title:  "Krascheninnikovia lanata"
 scientific: "Krascheninnikovia lanata"
 common: "Winterfat"
 author: Kurt Buzard
-intro: "it is a small shrub sending erect stem branches to heights between 0.5–1 metre (1.6–3.3 ft). It produces flat lance-shaped leaves up to 3 centimeters long. The stems and gray foliage are covered in woolly white hairs that age to a reddish color.[3] The woolly hairs start development in the late fall and gradually diminish through the winter season."
+intro: "it is a small shrub sending erect stem branches to heights between 0.5–1 metre (1.6–3.3 ft). It produces flat lance-shaped leaves up to 3 centimeters long. The stems and gray foliage are covered in woolly white hairs that age to a reddish color. The woolly hairs start development in the late fall and gradually diminish through the winter season."
 image: /images/mojave-plants-shrubs/krascheninnikovia-lanata.jpg
 permalink: /mojave-plants-shrubs/krascheninnikovia-lanata.html
 
@@ -41,12 +41,12 @@ elevation: 330–8,860' (100–2,700 m)
 
 my_posts_array:
 - image: /images/mojave-plants-shrubs/krascheninnikovia-lanata-1.jpg
-  title: Winterfat (Krascheninnikovia lanata). Calico Canyon
-  excerpt: 
+  title: Winterfat (Krascheninnikovia lanata)
+  excerpt: Calico Canyon
   url: "/construction.html"
 - image: /images/mojave-plants-shrubs/krascheninnikovia-lanata-2.jpg
-  title: Winterfat (Krascheninnikovia lanata). Calico Canyon
-  excerpt: 
+  title: Winterfat (Krascheninnikovia lanata)
+  excerpt: Middle Oak Creek Canyon
   url: "/construction.html"
  
 ---

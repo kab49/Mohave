@@ -5,8 +5,8 @@ scientific: "Lycium andersonii"
 common: "Anderson Boxthorn"
 author: Kurt Buzard
 intro: "This plant is a slow growing shrub up to about 2.7 meters (8 ft 10 in) in maximum height. It grows from a large fibrous root system which can extend over 9 metres (30 ft) from the base of the plant. The shrub is rounded in shape with many branches covered in many thin spines up to 2 centimetres (0.79 in) long. The flat leaves are thick and fleshy, measuring up to 1.7 centimetres (0.67 in) long. They are shed from the plant in dry conditions. The flowers have funnel-shaped white or purple-tinged corollas up to a centimeter long. The fruit is a red or orange berry less than a centimeter long. Favorite food of Chukar and Gambel's Quail."
-image: /images/mojave-plants-shrubs/melilotus-officinalis.jpg
-permalink: /mojave-plants-shrubs/melilotus-officinalis.html
+image: /images/mojave-plants-shrubs/lycium-andersonii.jpg
+permalink: /mojave-plants-shrubs/lycium-andersonii.html
 
 common-names: water-jacket, redberry desert-thorn, Anderson thornbush, Anderson's desert thorn, Anderson boxthorn, Anderson lycium, Anderson wolfberry, and squawberry
 synonyms: 
@@ -39,13 +39,13 @@ elevation: 1500-6000 feet (457-1829 m)
    
 
 my_posts_array:
-- image: /images/mojave-plants-shrubs/melilotus-officinalis-1.jpg
-  title: Sweet Yellow Clover (Melilotus officinalis)
-  excerpt: UT
+- image: /images/mojave-plants-shrubs/lycium-andersonii-1.jpg
+  title: Anderson Boxthorn (Lycium andersonii)
+  excerpt: Phoenix, AZ
   url: "/construction.html"
-- image: /images/mojave-plants-shrubs/melilotus-officinalis-2.jpg
-  title: Sweet Yellow Clover (Melilotus officinalis)
-  excerpt: UT
+- image: /images/mojave-plants-shrubs/lycium-andersonii-2.jpg
+  title: Anderson Boxthorn (Lycium andersonii)
+  excerpt: Phoenix, AZ
   url: "/construction.html"
  
 ---

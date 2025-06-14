@@ -1,7 +1,8 @@
 ---
 layout: post1
-title:  "Aspen Bluebells"
-scientific: "Parkinsonia-florida"
+title:  "Parkinsonia florida"
+scientific: "Parkinsonia florida"
+common: "Palos Verde"
 author: Kurt Buzard
 intro: "The blue palo verde is a deciduous tree with an alternate, bipinnate leaf arrangement with one to three pairs of leaflets of each pinna. Each leaf is a quarter of an inch long and blue-green in color. The blue palo verde can be distinguished from other green-trunked trees by its small straight spines at the branching points, the bluish tinge to the green bark and leaves, and its tendency to grow near washes in the wild (as opposed to the foothills palo verde which tends to grow on slopes). The blue palo verde also flowers earlier than the foothills palo verde. Both are found throughout the Tucson basin. These trees are profuse bloomers, densely clothed in bright yellow flowers for a few weeks in late spring."
 image: /images/mojave-plants-trees/parkinsonia-florida.jpg
@@ -59,9 +60,17 @@ features:
    
 
 my_posts_array:
-- image: /images/mojave-plants-perennials/mertensia-arizonica-1.jpg
-  title: Aspen Bluebells at Cedar Breaks Utah
-  excerpt: Aspen Bluebells (Mertensia arizonica)
+- image: /images/mojave-plants-trees/parkinsonia-florida-1.jpg
+  title: Palos Verde (Parkinsonia florida)
+  excerpt: Henderson Bird Viewing Preserve
   url: "/accipitriformes.html"
- 
+- image: /images/mojave-plants-trees/parkinsonia-florida-2.jpg
+  title: Palos Verde (Parkinsonia florida)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/accipitriformes.html"
+- image: /images/mojave-plants-trees/parkinsonia-florida-3.jpg
+  title: Palos Verde (Parkinsonia florida)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/accipitriformes.html"
+
 ---

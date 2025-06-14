@@ -1,7 +1,7 @@
 ---
 layout: post-plants
-title: "Astragalus oophorus"
-scientific: "Astragalus oophorus"
+title: "Astragalus oophorus var. clokeyanus"
+scientific: "Astragalus oophorus var. clokeyanus"
 common: "Clokey’s Egg Milkvetch"
 author: Kurt Buzard
 intro: "Leaves are up to 15 cm (5.9 in) long and are made up of many oval to rounded leaflets. The inflorescence is an array of four to ten flowers each up to 2.5 cm (0.98 in) long. The flowers are cream-colored or reddish purple with white tips. The fruit is an inflated legume pod, oval in shape and bladder-like, 2 cm (0.79 in) to over 5 cm (2.0 in) long."

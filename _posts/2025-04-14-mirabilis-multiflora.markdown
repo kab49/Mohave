@@ -44,11 +44,19 @@ elevation: 2500-6500' (900-2000 m)
 my_posts_array:
 - image: /images/mojave-plants-perennials/mirabilis-multiflora-1.jpg
   title: Colorado Four-o'clock (Mirabilis multiflora)
-  excerpt: Death Valley, Dantes Overlook
+  excerpt: Red Rock Canyon
   url: "/construction.html"
 - image: /images/mojave-plants-perennials/mirabilis-multiflora-2.jpg
   title: Colorado Four-o'clock (Mirabilis multiflora)
-  excerpt: Death Valley, Dantes Overlook
+  excerpt: Red Rock Canyon
+  url: "/construction.html"
+- image: /images/mojave-plants-perennials/mirabilis-multiflora-3.jpg
+  title: Colorado Four-o'clock (Mirabilis multiflora)
+  excerpt: Red Rock Canyon
+  url: "/construction.html"
+- image: /images/mojave-plants-perennials/mirabilis-multiflora-4.jpg
+  title: Colorado Four-o'clock (Mirabilis multiflora)
+  excerpt: Red Rock Canyon
   url: "/construction.html"
  
 ---

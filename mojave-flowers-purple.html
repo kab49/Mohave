@@ -1,62 +1,18 @@
 ---
 layout: page
-
-
-purple_array:
-- image: /images/mojave-flowers-purple/purple1.jpg
-  title: Rydberg Penstemon (Penstemon rydbergii)
-  sub: Purple
-  url: construction.html
-- image: /images/mojave-flowers-purple/purple2.jpg
-  title: Neotropic Purple (Nannopterum brasilianum)
-  sub: Purple
-  url: construction.html
-- image: /images/mojave-flowers-purple/purple3.jpg
-  title: Magnificent Frigatebird (Fregata magnificens)
-  sub: Purple
-  url: construction.html
-- image: /images/mojave-flowers-purple/purple4.jpg
-  title: Double-crested Purple (Nannopterum auritum)
-  sub: Purple
-  url: construction.html
-- image: /images/mojave-flowers-purple/purple5.jpg
-  title: Neotropic Purple (Nannopterum brasilianum)
-  sub: Purple
-  url: construction.html
-- image: /images/mojave-flowers-purple/purple6.jpg
-  title: Neotropic Purple (Nannopterum brasilianum)
-  sub: Purple
-  url: construction.html
-- image: /images/mojave-flowers-purple/purple6.jpg
-  title: Neotropic Purple (Nannopterum brasilianum)
-  sub: Purple
-  url: construction.html
-
-
 ---
-
 <!-- Banner -->
-<section id="banner">
-    <div class="content">
-      <header>
-        <h1><br>Purple Mojave Flowers<br />
-       </h1>
-       <p>Suliformes</p>
-      </header>
-      <p>Purple flowers are pretty.</p>
-    </div>
-    <span class="image object">
-      <img src="/images/mojave-flowers1.jpg" alt="" />
-    </span>
-</section>
+
+    <h2>Purple Flowers</h2>   
+
 
 <ul class="actions">
   <li><a href="mojave-flowers-white.html" class="button">White</a></li>
-  <li><a href="#" class="button default" style="background-color: yellow;">Yellow</a></li>
-  <li><a href="#" class="button primary" style="background-color: orange;">Orange</a></li>
-  <li><a href="#" class="button primary" style="background-color: red;">Red</a></li>
-  <li><a href="#" class="button primary" style="background-color: green;">Green</a></li>
-  <li><a href="#" class="button primary" style="background-color: blue;">Blue</a></li>
+  <li><a href="mojave-flowers-yellow.html" class="button default" style="background-color: yellow;">Yellow</a></li>
+  <li><a href="mojave-flowers-orange.html" class="button primary" style="background-color: orange;">Orange</a></li>
+  <li><a href="mojave-flowers-red.html" class="button primary" style="background-color: red;">Red</a></li>
+  <li><a href="mojave-flowers-green.html" class="button primary" style="background-color: green;">Green</a></li>
+  <li><a href="mojave-flowers-blue.html" class="button primary" style="background-color: blue;">Blue</a></li>
   <li><a href="mojave-flowers-purple.html" class="button primary" style="background-color: purple;">Purple</a></li>
 </ul>
 
@@ -64,20 +20,20 @@ purple_array:
 
 <!-- Section -->
 <section>
-  <header class="major">
-      <h2>Purple Flowers</h2>
-  </header>
 
-  
+
     <div class="box alt">
     <div class="row gtr-50 gtr-uniform">
-      
-      {% for post in page.purple_array %}
-    
-      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" title="{{ post.title }}"/></figure></a></span></div>
 
-    
-      {% endfor %}
+
+{% assign plantlist = site.data.plants11 | sort: "name" %}
+  {% for item in plantlist %}
+    {% if item.color contains "purple" %}
+
+      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+    {% endif %}
+  {% endfor %}
     
         
 </section>
