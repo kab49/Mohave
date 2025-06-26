@@ -17,7 +17,7 @@ Fringed Thistle	Cirsium clavatum var americanum	mojave-plants-perennials/cirsium
 Blackbrush	Coleogyne ramosissima	mojave-plants-shrubs/coleogyne-ramosissima.html	Roseacea	Rose	yellow	Shrub	images/mojave-plants-thumbnails/coleogyne-ramosissima-t.jpg	oc											
 Bigelow’s Tansyaster	Dieteria bigelovii var. commixta	mojave-plants-perennials/dieteria-bigelovii.html	Asteraceae	Daisy	purple	Perennial	images/mojave-plants-thumbnails/dieteria-bigelovii-t.jpg												
 Hoary Aster	Dieteria canescens	mojave-plants-perennials/dieteria-canescens.html	Asteraceae	Sunflower	purple	Perennial	images/mojave-plants-thumbnails/dieteria-canescens-t.jpg												
-Engelmann's Hedgehog Cactus	Echinocereus engelmannii	mojave-plants-cactus/echinocereus-engelmannii.html	Cactaceae	Cactus	cactus	Cactus	images/mojave-plants-thumbnails/echinocereus-engelmannii-t.jpg	oc											
+Engelmann's Hedgehog Cactus	Echinocereus engelmannii	mojave-plants-cactus/echinocereus-engelmannii.html	Cactaceae	Cactus	purple	Cactus	images/mojave-plants-thumbnails/echinocereus-engelmannii-t.jpg	oc											
 Virgin River Brittlebush 	Encelia virginensis	mojave-plants-shrubs/encelia-virginensis.html	Asteraceae	Sunflower 	yellow	Shrub	images/mojave-plants-thumbnails/encelia-virginensis-t.jpg	oc											
 Nevada Jointfir	Ephedra nevadensis	mojave-plants-shrubs/ephedra-nevadensis.html	Ephedraceae	Ephedra	yellow	Shrub	images/mojave-plants-thumbnails/ephedra-nevadensis-t.jpg												
 Fendler’s Sandwort	Eremogone fendleri	mojave-plants-perennials/eremogone-fendleri.html	Caryophyllaceae	Carnation	white	Perennial	images/mojave-plants-thumbnails/eremogone-fendleri-t.jpg												
@@ -104,7 +104,7 @@ Great Basin Wild Rye	Leymus cinereus	mojave-plants-grasses/leymus-cinereus.html	
 Saltgrass	Distichlis spicata	mojave-plants-grasses/distichlis-spicata.html	 Poaceae	Grasses	grass	Grass	images/mojave-plants-thumbnails/distichlis-spicata-t.jpg			
 Shadscale	Atriplex confertifolia	mojave-plants-shrubs/atriplex-confertifolia.html	 Amaranthaceae	Amaranth	pink, yellow, green	Shrub	images/mojave-plants-thumbnails/atriplex-confertifolia-t.jpg			
 Desert Holly	Atriplex hymenelytra	mojave-plants-shrubs/atriplex-hymenelytra.html	 Amaranthaceae	Amaranth	green	Shrub	images/mojave-plants-thumbnails/atriplex-hymenelytra-t.jpg			
-Cattle Saltbush	Atriplex hymenelytra	mojave-plants-shrubs/atriplex-polycarpa.html	 Amaranthaceae	Amaranth	green	Shrub	images/mojave-plants-thumbnails/atriplex-polycarpa-t.jpg			
+Cattle Saltbush	Atriplex polycarpa	mojave-plants-shrubs/atriplex-polycarpa.html	 Amaranthaceae	Amaranth	green	Shrub	images/mojave-plants-thumbnails/atriplex-polycarpa-t.jpg			
 Wooly Bluestar	Amsonia tomentosa	mojave-plants-perennials/amsonia-tomentosa.html	 Apocynaceae	Dogbane	white, purple, blue	Perennial	images/mojave-plants-thumbnails/amsonia-tomentosa-t.jpg			
 London Rocket	Sisymbrium irio	mojave-plants-weeds/sisymbrium-irio.html	 Brassicaceae	Mustard	yellow	Weed	images/mojave-plants-thumbnails/sisymbrium-irio-t.jpg			
 Trailing Windmills	Allionia incarnata	mojave-plants-perennials/allionia-incarnata.html	 Nyctaginaceae	Four O’clock	purple	Perennial	images/mojave-plants-thumbnails/allionia-incarnata-t.jpg			
@@ -115,3 +115,18 @@ Lilac Sunbonnets	Langloisia setosissima sub. setosissima	mojave-plants-annuals/l
 Anderson Boxthorn	Lycium andersonii	mojave-plants-shrubs/lycium-andersonii.html	 Solanaceae	Nightshade	purple	Shrub	images/mojave-plants-thumbnails/lycium-andersonii-t.jpg			
 Desert Lilly	Hesperocallis undulata	mojave-plants-perennials/hesperocallis-undulata.html	 Asparagaceae	Asparagus	white	Perennial	images/mojave-plants-thumbnails/hesperocallis-undulata-t.jpg			
 Notch-leaved Phacelia	Phacelia crenulata	mojave-plants-annuals/phacelia-crenulata.html	 Polemoniaceae	Phlox	purple	Annual	images/mojave-plants-thumbnails/phacelia-crenulata-t.jpg			
+Woolly Desert Marigold	Baileya pleniradiata	mojave-plants-perennials/baileya-pleniradiata.html	 Asteraceae	Sunflower	yellow	Perennial	images/mojave-plants-thumbnails/baileya-pleniradiata-t.jpg			
+Apricot Globe-mallow	Sphaeralcea ambigua	mojave-plants-perennials/sphaeralcea-ambigua.html	 Malvaceae	Mallow	orange	Perennial	images/mojave-plants-thumbnails/sphaeralcea-ambigua-t.jpg			
+Lacy Phacelia	Phacelia tanacetifolia	mojave-plants-annuals/phacelia-tanacetifolia.html	 Polemoniaceae	Phlox	purple	Annual	images/mojave-plants-thumbnails/phacelia-tanacetifolia-t.jpg			
+Beavertail Cactus	Opuntia basilaris	mojave-plants-cactus/opuntia-basilaris.html	 Cactaceae	Cactus	purple	Cactus	images/mojave-plants-thumbnails/opuntia-basilaris-t.jpg			
+Mojave Suncup	Chylismia brevipes	mojave-plants-annuals/chylismia-brevipes.html	 Onagraceae	Evening Primrose	yellow	Annual	images/mojave-plants-thumbnails/chylismia-brevipes-t.jpg			
+Narrowleaf Cryptocantha	Johnstonella angustifolia	mojave-plants-annuals/johnstonella-angustifolia.html	 Boraginaceae	Forget-Me-Not	yellow	Annual	images/mojave-plants-thumbnails/johnstonella-angustifolia-t.jpg			
+Field Bindweed	Convolvulus arvensis	mojave-plants-weeds/convolvulus-arvensis.html	 Convolvulaceae	Morning Glory	white	Weed	images/mojave-plants-thumbnails/convolvulus-arvensis-t.jpg			
+Fremont Indigo-bush	Psorothamnus fremontii	mojave-plants-shrubs/psorothamnus-fremontii.html	 Fabaceae	Pea	blue, purple	Shrub	images/mojave-plants-thumbnails/psorothamnus-fremontii-t.jpg			
+Iodinebush	Allenrolfea occidentalis	mojave-plants-shrubs/allenrolfea-occidentalis.html	 Chenopodiaceae	Goosefoot	yellow	Shrub	images/mojave-plants-thumbnails/allenrolfea-occidentalis-t.jpg			
+Purplemat	Nama demissum	mojave-plants-annuals/nama-demissum.html	 Boraginaceae	Forget-Me-Not	purple	Annual	images/mojave-plants-thumbnails/nama-demissum-t.jpg			
+Bigelow's Monkeyflower	Diplacus bigelovii	mojave-plants-annuals/diplacus-bigelovii.html	 Phrymaceae	Lopseed	purple	Annual	images/mojave-plants-thumbnails/diplacus-bigelovii-t.jpg			
+Parry's Wild Buckwheat	Eriogonum brachypodum	mojave-plants-annuals/eriogonum-brachypodum.html	 Polygonaceae	Buckwheat	white	Annual	images/mojave-plants-thumbnails/eriogonum-brachypodum-t.jpg			
+Bristly Fiddleneck	Amsinckia tessellata	mojave-plants-annuals/amsinckia-tessellata.html	 Boraginaceae	Borage	yellow	Annual	images/mojave-plants-thumbnails/amsinckia-tessellata-t.jpg			
+Desert Pincushion	Chaenactis stevioides	mojave-plants-annuals/chaenactis-stevioides.html	 Asteraceae	Sunflower	white	Annual	images/mojave-plants-thumbnails/chaenactis-stevioides-t.jpg			
+California Poppy	Eschscholzia californica	mojave-plants-annuals/eschscholzia-californica.html	 Papaveraceae	Poppy	orange	Annual	images/mojave-plants-thumbnails/eschscholzia-californica-t.jpg			

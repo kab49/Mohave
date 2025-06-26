@@ -1,0 +1,50 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> All Mojave Plants<br />
+       </h1>
+       <p>Search all the plant database</p>
+      </header>
+      <p>Sometimes you just need to see everything.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-plants-all.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>All Mojave Plants</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th><a href="mojave-plants-all-n.html">Common Name</a></th>
+                <th><a href="mojave-plants-all.html">Sort by Scientific Name</a></th>
+                <th><a href="mojave-plants-all-f.html">Sort by Family</a></th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>
+

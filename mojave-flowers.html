@@ -32,11 +32,16 @@ my_posts_array:
 <section id="banner">
     <div class="content">
       <header>
-        <h1><br> Mojave Flowers<br />
+        <h1><br>Mojave Flowers<br />
         </h1>
         <p>Wildflowers by Color</p>
       </header>
-      <p>Some of the oldest stone tools in North America have been found in the mojave Desert.</p>
+      <p>When trying to identify a new plant, flowers can often be the extra difference leading to a definitive identification. I have included flower pictures below, which can be separated by color to aid in plant identification. Flowers are made up of four basic parts: the pistil, stamens, sepals, and petals. I have included a terminology page to help with new terms and concepts. The important thing to remember is that not all flowers have petals and a flower is sometimes not the most colorful part of the inflorescence. For instance, the Indian Paintbrush shown on the right has red bracts and green flowers! Click on the button below to learn more helpful flower concepts and terminology.</p>
+
+      <ul class="actions">
+				<li><a href="flower-terminology.html" class="button large">Flower Terminology</a></li>
+			</ul>
+
     </div>
     <span class="image object">
       <img src="/images/mojave-flowers.jpg" alt="" />
@@ -61,10 +66,27 @@ my_posts_array:
 
 
 
-  <div class="box alt">
-  <div class="row gtr-50 gtr-uniform">
-    {% include components/posts2.html posts2=page.my_posts_array %}
-  </div>
-  </div>
-  </section>
+<!-- Section -->
+<section>
+
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+
+{% assign plantlist = site.data.plants11 | sort: "family" %}
+
+  {% for item in plantlist %}
+      {% unless item.color contains "grass" %}
+
+  <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endunless %}
+
+  
+   
+  {% endfor %}
+    
+        
+</section>
   

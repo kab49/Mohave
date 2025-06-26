@@ -1,0 +1,53 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Trees<br />
+       </h1>
+       <p>Trees</p>
+      </header>
+      <p>The Mojave Desert is characterized by iconic trees like the Joshua tree (Yucca brevifolia), alongside other species like desert willow, mesquite, and various pines and junipers at higher elevations. While Joshua trees are the most distinctive – and seemingly the hardiest, growing even in the most exposed flats – they are not the only trees. Desert willow (Chilopsis linearis), smoke tree (Psorothamnus spinosus), palo verde (Parkinsonia), catclaw acacia (Acacia greggii) and the various mesquite trees are some of the notablke occupants of the Mojave desert.
+      </p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-plants-trees.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Trees</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th><a href="mojave-plants-trees-n.html">Common Name</a></th>
+                <th><a href="mojave-plants-trees.html">Sort by Scientific Name</a></th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type=="Tree" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>
+

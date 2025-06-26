@@ -1,0 +1,51 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Cactus Plants<br />
+       </h1>
+       <p>Cactus and Succulents</p>
+      </header>
+      <p></p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-cactus-flowers.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Cactus and Succulents</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th><a href="mojave-plants-cactus-n.html">Common Name</a></th>
+                <th><a href="mojave-plants-cactus.html">Sort by Scientific Name</a></th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type=="Cactus" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>

@@ -1,0 +1,55 @@
+---
+layout: page
+
+title: Perennial Plants
+author: Kurt Buzard
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Perennial Plants<br />
+       </h1>
+       <p>Non-woody Perennials not grasses</p>
+      </header>
+      <p>Perennial plants can be short-lived (only a few years) or long-lived. They include a wide assortment of plant groups from non-flowering plants like ferns and liverworts to highly diverse flowering plants like orchids, grasses, and woody plants. Small flowering plants that grow and bloom over the spring and summer, die back every autumn and winter, and then return in the spring from their rootstock or other overwintering structure, are known as herbaceous perennials. These are the plants included in this category.</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-plants-perennials.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Perennial Plants</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th><a href="mojave-plants-perennials-n.html">Common Name</a></th>
+                <th><a href="mojave-plants-perennials.html">Sort by Scientific Name</a></th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type=="Perennial" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }} ({{ item.family-common }})</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>
+
