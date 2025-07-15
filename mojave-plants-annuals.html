@@ -29,17 +29,17 @@ layout: page
         <thead>
             <tr>
                 <th><a href="mojave-plants-annuals.html">Scientific Name</a></th>
-                <th><a href="mojave-plants-annuals.html">Sort by Common Name
+                <th><a href="mojave-plants-annuals-n.html">Sort by Common Name
                 <th>Family</th>
             </tr>                                                                                                                         
         </thead>
         <tbody>
-          {% assign plantlist = site.data.plants11 | sort: "name" %}
+          {% assign plantlist = site.data.plants11 | sort: "scientific" %}
             {% for item in plantlist %}
             {% if item.type=="Annual" %}
             <tr>
-                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
-                <td>{{ item.scientific }}</td>
+                <td><a href="{{ item.url }}">{{ item.scientific }}</a></td>
+                <td>{{ item.name }}</td>
                 <td>{{ item.family }}</td>
             </tr>
             {% endif %}

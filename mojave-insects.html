@@ -1,104 +1,66 @@
 ---
 layout: page
-
 page-name: Mojave Insects
-order: 
 intro: "If you look closely in the desert, you can find insects everywhere--on leaves and sand, under rocks and sticks, and in flowers and cactus fruits. Insects have three body segments (head, thorax, and abdomen) and six legs. Most modern insects are winged as adults. Ants are a conspicuous exception to this trend, as most ants are wingless (only the queen and male ants have wings). My coverage of insects of the mojave will include only hose of particular interest."
 page-image: /images/mojave-insects/mojave-insects.jpg
 
-
-
-
-mojave-insects_array:
-- image: /images/mojave-insects/western-spotted-orbweaver.jpg
-  title: Western Spotted Orbweaver (Neoscona oaxacensis)
-  sub: Spiders (Araneae)
-  url: construction.html
-- image: /images/mojave-insects/armored-stink-beetle.jpg
-  title: Stink Beatles (Eleodes)
-  sub: Beatles (Coleoptera)
-  url: construction.html
-- image: /images/mojave-insects/common-green-bottle-fly.jpg
-  title: Flies (Diptera)
-  sub: Flies (Diptera)
-  url: construction.html
-- image: /images/mojave-insects/california-harvestor-ant.jpg
-  title: Ants (Hymenoptera)
-  sub: Hymenoptera
-  url: construction.html
-- image: /images/mojave-insects/european-honey-bee.jpg
-  title: Bees (Hymenoptera)
-  sub: #
-  url: construction.html
-- image: /images/mojave-insects/golden-paper-wasp.jpg
-  title: Wasps (Hymenoptera)
-  sub: #
-  url: construction.html
-- image: /images//mojave-insects/monarch1.jpg
-  title: Butterflies (Lepidoptera)
-  sub: Lepidoptera
-  url: construction.html
-- image: /images//mojave-insects/hummingbird-moth.jpg
-  title: Moths (Lepidoptera)
-  sub: #
-  url: construction.html
-- image: /images//mojave-insects/springwater-dancer.jpg
-  title: Damselflies (Odonata)
-  sub: Odonata
-  url: construction.html
-- image: /images//mojave-insects/twelve-spotted-skimmer.jpg
-  title: Dragonflies (Odonata)
-  sub: #
-  url: construction.html
-- image: /images//mojave-insects/pallid-winged-grasshopper.jpg
-  title: Grasshoppers (Orthoptera)
-  sub: Orthoptera
-  url: construction.html
-- image: /images//mojave-insects/pallid-winged-grasshopper.jpg
-  title: Crickets (Orthoptera)
-  sub: #
-  url: construction.html
+my_posts_array:
+- image: images/mojave-flowers-color.jpg
+  title: Flowers by Color
+  excerpt: Probably the best all aroud hotspot in Southern Nevada
+  url: mojave-flowers-white.html
 
 ---
 
-
 <!-- Banner -->
 <section id="banner">
-  <div class="content">
-    <header>
-      <h1><br>{{ page.page-name }}<br />
-     </h1>
-     <p>{{ page.order }}</p>
-    </header>
-    <p>{{ page.intro }}</p>
-  </div>
-  <span class="image object">
-    <img src="{{ page.page-image }}" alt="" />
-  </span>
-</section>
+    <div class="content">
+      <header>
+        <h1><br> Mohave Insects<br />
+       </h1>
+       <p>Search all the insect database</p>
+      </header>
+      <p>If you look closely in the desert, you can find insects everywhere--on leaves and sand, under rocks and sticks, and in flowers and cactus fruits. Insects have three body segments (head, thorax, and abdomen) and six legs. Most modern insects are winged as adults. Ants are a conspicuous exception to this trend, as most ants are wingless (only the queen and male ants have wings).</p>
+<ul class="actions">
+				<li><a href="/mojave-insects-all.html" class="button fit">All Insects Visual Search</a></li>
+        <li><a href="/mojave-insects-orders.html" class="button fit">Visual Insect Search by Order</a></li>
+</ul>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-insects/mojave-insects.jpg" alt="" />
+    </span>
+  </section>
 
-<!-- Section -->
+    
+
+<!-- Table -->
+
+<h3>All Mojave Insects</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th><a href="mojave-insects.html">Scientific Name</a></th>
+                <th><a href="mojave-insects-n.html">Sort by Common Name
+                <th><a href="mojave-insects-f.html">Sort by Family</a></th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign insectlist = site.data.insect1 | sort: "scientific" %}
+            {% for item in insectlist %}
+            
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.scientific }}</a></td>
+                <td>{{ item.common }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>
 
 
-{% for post in page.mojave-insects_array %}
-
-{% if post.sub.size > 1 %}
-
-
-<section>
-
-  <header class="major">
-    <h2>{{ post.sub }}</h2>
-  </header>
-
-    <div class="box alt">
-    <div class="row gtr-50 gtr-uniform">
-
-{% endif %}
- 
-  
-      <div class="col-4"><span class="image fit"><a href="{{ site.baseurl }}/{{ post.url }}" class="image"><figure><img src="{{ post.image }}" alt="" /><figcaption>{{ post.title }}<figcaption></figcaption></figure></a></span></div>
-
-
-{% endfor %}
-</section>

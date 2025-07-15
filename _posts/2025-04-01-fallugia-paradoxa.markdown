@@ -55,7 +55,7 @@ my_posts_array:
   url: "/construction.html"
 - image: /images/mojave-plants-shrubs/fallugia-paradoxa-4.jpg
   title: Apache Plume (Fallugia paradoxa) flower
-  excerpt: Seed, Suzanne Foster. Provided by USDA Forest Service
+  excerpt: Seed
   url: "/construction.html"
 
 

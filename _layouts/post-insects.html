@@ -1,0 +1,82 @@
+---
+layout: page
+---
+{% assign page-title = page.title %}
+{% assign post-insect = site.data.insect1 | where: 'scientific', page-title %}
+{% assign page.image = post-insect[0].image %}
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1><br>{{ page.title }}<br />
+         </h1>
+            <p>{{ post-insect[0].common }}</p>
+            
+        </header>
+        <h3>Introduction:</h3>
+        <p>{{ page.intro }}<br>
+        <b>Life Cycle:</b> {{ page.life-cycle }} </p>
+        <p><b>Size</b> {{ page.size }}<br>
+        <b>Sexual Dimorphism:</b> {{ page.sexual-dimorphism }}<br>
+        <b>Metamorphosis:</b> {{ page.metamorphosis }}</p>
+        
+
+    </div>
+    <span class="image fit">
+      <img src="{{ page.image }}" alt="{{ page.title }}" rel="lightbox"></a>
+    </span>
+</section>
+
+
+{{ content }}
+
+<!-- Section -->
+<section>
+  <header class="major">
+      <h2>Insect Data</h2>
+  </header>
+  
+
+<!-- Features -->
+<div class="features">
+    <article>  
+        <span class="icon fa-sitemap"></span>
+
+      <div class="content">
+        <h3>Names and Taxonomy</h3>
+        <ul class="alt">
+          <li><b>Common Names:</b> {{ page.common-names }}</li>
+          <li><b>Synonyms:</b> {{ page.synonyms }}</li>
+          <li><b>Order:</b> {{ page.order }}</li>
+          <li><b>Family:</b> {{ page.family }}</li>
+          <li><b>Genus Information:</b> {{ page.genus }}</li>
+        </ul>
+      </div>
+    </article>
+
+    <article>  
+      <span class="icon fa-map-marked-alt"></span>    
+
+    <div class="content">
+      <h3>Distribution</h3>
+        <ul class="alt">
+          <li><b>Distribution:</b> {{ page.distribution }}</li>
+          <li><b>Seen:</b> {{ page.seen }}</li>
+          <li><b>Habitat:</b> {{ page.habitat }}</li>
+          <li><b>Food:</b> {{ page.food }}</li>
+        </ul>
+      </div>
+    </article>
+</section>
+
+
+
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>Photographs</h2>
+    </header>
+    {% include components/posts-insects.html posts=page.my_posts_array %}
+</section>
+
