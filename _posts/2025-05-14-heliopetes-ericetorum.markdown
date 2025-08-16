@@ -3,10 +3,15 @@ layout: post-insects
 title: "Heliopetes ericetorum"
 scientific: "Heliopetes ericetorum"
 common: "Northern White-skipper"
-author: Kurt Buzard
-intro: "There are two broods per year, with adults on wing from April to October. Adult males are mostly white with black chevrons along the wings' margins. Adult females' marginal markings are larger and darker, and their wings have more gray or black at the base. Larvae feed on the leaves of mallow species, including Sphaeralcea, Althaea and Malva species. Skipper larvae are rarely seen, because they typically roll leaves into shelters and tack them closed with a bit of silk, or else they join a few leaves together and hide within."
+author: Kurt buzardr
+categories: mojave-insects
+permalink: /:categories/:title:output_ext
 image: /images/mojave-insects/heliopetes-ericetorum.jpg
-permalink: /mojave-insects/heliopetes-ericetorum.html
+
+
+intro: "There are two broods per year, with adults on wing from April to October. Adult males are mostly white with black chevrons along the wings' margins. Adult females' marginal markings are larger and darker, and their wings have more gray or black at the base. Larvae feed on the leaves of mallow species, including Sphaeralcea, Althaea and Malva species. Skipper larvae are rarely seen, because they typically roll leaves into shelters and tack them closed with a bit of silk, or else they join a few leaves together and hide within."
+
+
 
 common-names: Northern White-skipper
 synonyms: Heliopetes ericetorum, Syrichtus ericetorum, Syrichtus alba

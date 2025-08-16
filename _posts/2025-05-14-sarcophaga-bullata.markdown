@@ -13,13 +13,13 @@ synonyms: Sarcophaga bullata, Sarcophaga bison, Neobellieria bullata
 order: Diptera (Flies)
 family: Sarcophagidae (Flesh Flies)
 genus: 10-20 in NV, 25 in CA, 50 in US
-similar-taxa: 
+similar: 
 size: 0.3-0.6 inches (8-17 mm)
 distribution: throughout North America
-life cycle: Like all known sarcophagids, the species is larviparous, meaning that the egg develops internally and females then give birth to first-instar larvae. This must be accounted for when using the species in forensic work to calculate a post-mortem interval.
 seen: Corn Creek
 habitat: 
 food: carrion, sap and flower nectar
+life cycle: Like all known sarcophagids, the species is larviparous, meaning that the egg develops internally and females then give birth to first-instar larvae. This must be accounted for when using the species in forensic work to calculate a post-mortem interval.
  
    
 

@@ -38,11 +38,11 @@ food: It is known to collect pollen from Gossypium, Viguiera, Helianthus, Linari
 
 my_posts_array:
 - image: /images/mojave-insects/bombus-sonorus.jpg
-  title: Small Milkweed Bug (Bombus sonorus)
+  title: Sonoran Bumble Bee (Bombus sonorus)
   excerpt: Henderson Bird Viewing Preserve (Aug 25)
   url: "/construction.html"
 - image: /images/mojave-insects/bombus-sonorus-1.jpg
-  title: Small Milkweed Bug (Bombus sonorus)
+  title: Sonoran Bumble Bee (Bombus sonorus)
   excerpt: Henderson Bird Viewing Preserve (Aug 25)
   url: "/construction.html"
  

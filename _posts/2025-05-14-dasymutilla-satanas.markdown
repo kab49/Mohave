@@ -41,11 +41,11 @@ my_posts_array:
   title: Female, Satan's Velvet Ant (Dasymutilla satanas)
   excerpt: Henderson Bird Viewing Preserve (August 25)
   url: "/construction.html"
-- image: /images/mojave-insects/synchlora-frondaria-1.jpg
+- image: /images/mojave-insects/dasymutilla-satanas-1.jpg
   title: Female, Satan's Velvet Ant (dasymutilla-satanas)
   excerpt: Henderson Bird Viewing Preserve August 25)
   url: "/construction.html"
-- image: /images/mojave-insects/synchlora-frondaria-2.jpg
+- image: /images/mojave-insects/dasymutilla-satanas-2.jpg
   title: Satan's Velvet Ant (dasymutilla-satanas)
   excerpt: Female, Henderson Bird Viewing Preserve (July 12)
   url: "/construction.html"

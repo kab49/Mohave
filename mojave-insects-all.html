@@ -27,12 +27,12 @@ my_posts_array:
     <div class="row gtr-50 gtr-uniform">
 
 
-{% assign insectlist = site.data.insect1 | sort: "family" %}
+{% assign insectlist = site.data.insect1 | sort: "type" %}
 
   {% for item in insectlist %}
 
 
-  <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+  <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
 
   
    

@@ -26,7 +26,7 @@ metamorphosis: incomplete (egg, nymph, adult)
 common-names: 
 synonyms: 
 order: Odonata (Damsel-Dragonflies)
-family: Libellulidae (Dragonflies)
+family: Libellulidae (Skimmers)
 genus: 1 species in US
 similar-taxa: 
 

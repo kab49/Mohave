@@ -9,7 +9,7 @@ size: wingspan is 1 inch (25–38 mm)
 sexual-dimorphism: "no"
 metamorphosis: complete (egg-larva-pupa-adult)
 image: /images/mojave-insects/burnsius-albezens.jpg
-permalink: mojave-insects/burnsius-albezens.html
+permalink: /mojave-insects/burnsius-albezens.html
 
 common-names: White Checkered-skipper
 synonyms: Burnsius albescens and Pyrgus albescens

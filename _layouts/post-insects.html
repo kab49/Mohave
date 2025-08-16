@@ -11,7 +11,7 @@ layout: page
         <header>
             <h1><br>{{ page.title }}<br />
          </h1>
-            <p>{{ post-insect[0].common }}</p>
+            <p>{{ page.common }}</p>
             
         </header>
         <h3>Introduction:</h3>
@@ -77,6 +77,6 @@ layout: page
     <header class="major">
         <h2>Photographs</h2>
     </header>
-    {% include components/posts-insects.html posts=page.my_posts_array %}
+    {% include components/posts-plants.html posts=page.my_posts_array %}
 </section>
 

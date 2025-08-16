@@ -47,7 +47,7 @@ my_posts_array:
   title: Fendler's Meadow-rue (Thalictrum fendleri)
   excerpt: Male flowers, Mount Charleston
   url: "/construction.html"
-- image: /images/mojave-plants-perennials/thalictrum-fendleri-3.jpg
+- image: /images/mojave-plants-perennials/thalictrum-fendleri-.jpg
   title: Fendler's Meadow-rue (Thalictrum fendleri)
   excerpt: Leaves, Mount Charleston
   url: "/construction.html"
