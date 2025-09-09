@@ -38,6 +38,10 @@ my_posts_array:
   title: White Checkered-skipper (Burnsius albezens)
   excerpt: Cave Lake, NV
   url: "/construction.html" 
+- image: /images/mojave-insects/burnsius-albezens-3.jpg
+  title: White Checkered-skipper (Burnsius albezens)
+  excerpt: Henderson Bird Vewing Preserve (10/18)
+  url: "/construction.html" 
  
 ---
   

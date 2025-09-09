@@ -12,31 +12,47 @@ my_posts_array:
 
 ---
 
-<h3>Mojave Insects Photogrid by Family</h3>
+  <section>
 
-  
+    <h3>All Mojave Insects by Name and Family</h3>
 
-</section>
-
-
-<!-- Section -->
-<section>
-
-
-    <div class="box alt">
-    <div class="row gtr-50 gtr-uniform">
-
-
-{% assign insectlist = site.data.insect1 | sort: "type" %}
-
-  {% for item in insectlist %}
-
-
-  <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
-
-  
-   
-  {% endfor %}
+<ul class="actions">
+				<li><a href="/mojave-insects.html" class="button fit">All Insects Visual Search</a></li>
+        <li><a href="/mojave-insects-info.html" class="button fit">More Insect Info</a></li>
+</ul>
     
+  </section>
+
+    
+
+<!-- Table -->
+
+
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th><a href="/mojave-insects-all.html">Scientific Name</a></th>
+                <th><a href="/mojave-insects-n.html">Sort by Common Name
+                <th><a href="/mojave-insects-f.html">Sort by Family</a></th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign insectlist = site.data.insect1 | sort: "scientific" %}
+            {% for item in insectlist %}
+            
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.scientific }}</a></td>
+                <td>{{ item.common }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endfor %}
         
-</section>
+        </tbody>
+       
+    </table>
+</div>
+
+

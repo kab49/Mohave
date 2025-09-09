@@ -32,6 +32,14 @@ my_posts_array:
   title: Apache cicada (Diceroprocta apache)
   excerpt: Henderson Bird Viewing Preserve
   url: "/construction.html"
+- image: /images/mojave-insects/diceroprocta-apache-2.jpg
+  title: Apache cicada (Diceroprocta apache)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
+- image: /images/mojave-insects/diceroprocta-apache-3.jpg
+  title: Apache cicada (Diceroprocta apache)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
   
  
 ---

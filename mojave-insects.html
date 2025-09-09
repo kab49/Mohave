@@ -16,14 +16,14 @@ my_posts_array:
 <section id="banner">
     <div class="content">
       <header>
-        <h1><br> Mohave Insects<br />
+        <h1><br> Mojave Insects<br />
        </h1>
-       <p>Search all the insect database</p>
+       <p></p>
       </header>
       <p>If you look closely in the desert, you can find insects everywhere--on leaves and sand, under rocks and sticks, and in flowers and cactus fruits. Insects have three body segments (head, thorax, and abdomen) and six legs. Most modern insects are winged as adults. Ants are a conspicuous exception to this trend, as most ants are wingless (only the queen and male ants have wings).</p>
 <ul class="actions">
-				<li><a href="/mojave-insects-all.html" class="button fit">All Insects Visual Search</a></li>
-        <li><a href="/mojave-insects-orders.html" class="button fit">Visual Insect Search by Order</a></li>
+				<li><a href="/mojave-insects-all.html" class="button fit">All Insects List Search</a></li>
+        <li><a href="/mojave-insects-info.html" class="button fit">More Insect Info</a></li>
 </ul>
     </div>
     <span class="image object">
@@ -31,36 +31,185 @@ my_posts_array:
     </span>
   </section>
 
-    
 
-<!-- Table -->
+<h3>Mojave Insects Photogrid by Type</h3>
 
-<h3>All Mojave Insects</h3>
+  
 
-<div class="table-wrapper">
-    <table>
-    
-        <thead>
-            <tr>
-                <th><a href="/mojave-insects.html">Scientific Name</a></th>
-                <th><a href="/mojave-insects-n.html">Sort by Common Name
-                <th><a href="/mojave-insects-f.html">Sort by Family</a></th>
-            </tr>                                                                                                                         
-        </thead>
-        <tbody>
-          {% assign insectlist = site.data.insect1 | sort: "scientific" %}
-            {% for item in insectlist %}
-            
-            <tr>
-                <td><a href="{{ item.url }}">{{ item.scientific }}</a></td>
-                <td>{{ item.common }}</td>
-                <td>{{ item.family }}</td>
-            </tr>
-            {% endfor %}
+</section>
+
+
+<!-- Section -->
+<section>
+
+{% comment %}
+
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+
+{% assign insectlist = site.data.insect1 | sort: "type" %}
+
+  {% for item in insectlist %}
+
+  <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+  
+  {% endfor %}
+
+{% endcomment %}
+
+{% assign bees = site.data.insect1 | where:"type","Bee" %}
+
+
+  <h3>Bees (Hymenoptera)</h3>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+
+    {% for item in bees %}
+
+      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+    {% endfor %}
+
+    </div>
+		</div>
+
+{% assign wasps = site.data.insect1 | where:"type","Wasp" %}
+
+  <h3>Wasps (Hymenoptera)</h3>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+    {% for item in wasps %}
+
+      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+    {% endfor %}
+
+    </div>
+		</div>
+
+
+
+{% assign butterflies = site.data.insect1 | where:"type","Butterfly" %}
+
+  <h3>Butterflies (Lepidoptera)</h3>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+      {% for item in butterflies %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+    </div>
+		</div>
+
+{% assign moths = site.data.insect1 | where:"type","Moth" %}
+
+  <h3>Moths (Lepidoptera)</h3>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+      {% for item in moths %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+    </div>
+		</div>
         
-        </tbody>
-       
-    </table>
-</div>
+{% assign flies = site.data.insect1 | where:"type","Fly" %}
 
+  <h3>Flies (Diptera)</h3>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
 
+      {% for item in flies %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+    </div>
+		</div>
+
+{% assign dragonflies = site.data.insect1 | where:"type","Dragonfly" %}
+
+  <h3>Dragonflies (Odonata)</h3><br>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+      {% for item in dragonflies %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+      </div>
+		  </div>
+
+{% assign damselflies = site.data.insect1 | where:"type","Damselfly" %}
+
+  <h3>Damselflies (Odonata)</h3><br>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+      {% for item in damselflies %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+      </div>
+		  </div>
+
+{% assign beetles = site.data.insect1 | where_exp: "item","item.type == 'Beetle' or item.type == 'Bug' or item.type == 'Cicada'" %}
+
+  <h3>Beetles (Coleoptera) and Bugs (Hemitera)</h3><br>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+      {% for item in beetles %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+      </div>
+		  </div>
+
+{% assign grasshoppers = site.data.insect1 | where_exp: "item","item.type == 'Grasshopper' or item.type == 'Cricket'" %}
+
+  <h3>Grasshoppers and Crickets (Orthoptera)</h3><br>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+      {% for item in grasshoppers %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+      </div>
+		  </div>      
+
+{% assign spiders = site.data.insect1 | where:"type","Spider" %}
+
+  <h3>Spiders (Araneae)</h3><br>
+    <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+
+      {% for item in spiders %}
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+      {% endfor %}
+
+      </div>
+		  </div>      
+
+</section>

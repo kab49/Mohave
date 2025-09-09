@@ -44,6 +44,10 @@ my_posts_array:
   title: California Jumping Spider (Phidippus californicus)
   excerpt: Corn Creek (6/17)
   url: "/construction.html"
+- image: /images/mojave-insects/phidippus-californicus-2.jpg
+  title: California Jumping Spider (Phidippus californicus)
+  excerpt: Henderson Bird Viewing Preserve (09/07)
+  url: "/construction.html"
  
 ---
   

@@ -28,6 +28,10 @@ my_posts_array:
   title: Black Saddlebags (Tramea lacerata)
   excerpt: Henderson Bird Viewing Preserve
   url: "/construction.html"
+- image: /images/mojave-insects/tramea-lacerata-1.jpg
+  title: Black Saddlebags (Tramea lacerata)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
 
  
 ---

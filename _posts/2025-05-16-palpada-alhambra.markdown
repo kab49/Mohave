@@ -38,15 +38,19 @@ food: Hoverflies get their names from the ability to remain nearly motionless wh
 my_posts_array:
 - image: /images/mojave-insects/palpada-alhambra.jpg
   title: Single-banded Plushback (Palpada alhambra)
-  excerpt: Henderson Bird Viewing Preserve
+  excerpt: Henderson Bird Viewing Preserve (7/29)
   url: "/construction.html"
 - image: /images/mojave-insects/palpada-alhambra-1.jpg
   title: Single-banded Plushback (Palpada alhambra)
-  excerpt: Henderson Bird Viewing Preserve
+  excerpt: Henderson Bird Viewing Preserve (7/29)
   url: "/construction.html"
 - image: /images/mojave-insects/palpada-alhambra-2.jpg
   title: Single-banded Plushback (Palpada alhambra)
-  excerpt: Henderson Bird Viewing Preserve
+  excerpt: Henderson Bird Viewing Preserve (7/29)
+  url: "/construction.html"
+- image: /images/mojave-insects/palpada-alhambra-3.jpg
+  title: Single-banded Plushback (Palpada alhambra)
+  excerpt: Henderson Bird Viewing Preserve (7/28)
   url: "/construction.html"
  
 ---

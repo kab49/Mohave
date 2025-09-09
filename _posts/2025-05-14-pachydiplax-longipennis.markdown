@@ -40,12 +40,16 @@ food: carnivorous, and are capable of eating hundreds of insects every day, incl
 
 my_posts_array:
 - image: /images/mojave-insects/pachydiplax-longipennis.jpg
-  title: Small Milkweed Bug (Synchlora frondaria)
+  title: Blue Dasher (Pachydiplax longipennis)
   excerpt: Male, Henderson Bird Viewing Preserve (May 31)
   url: "/construction.html"
 - image: /images/mojave-insects/pachydiplax-longipennis-1.jpg
-  title: Small Milkweed Bug (Synchlora frondaria)
+  title: Blue Dasher (Pachydiplax longipennis)
   excerpt: Female, Henderson Bird Viewing Preserve (June 6)
+  url: "/construction.html"
+- image: /images/mojave-insects/pachydiplax-longipennis-2.jpg
+  title: Blue Dasher (Pachydiplax longipennis)
+  excerpt: Mating, Henderson Bird Viewing Preserve (August 4)
   url: "/construction.html"
  
 ---

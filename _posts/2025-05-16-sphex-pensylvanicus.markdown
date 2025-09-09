@@ -48,6 +48,10 @@ my_posts_array:
   title: Great Black Wasp (Sphex pensylvanicus)
   excerpt: Corn Creek (9/24)
   url: "/construction.html"
+- image: /images/mojave-insects/sphex-pensylvanicus-3.jpg
+  title: Great Black Wasp (Sphex pensylvanicus)
+  excerpt: Henderson Bird Viewing Preserve (8/18)
+  url: "/construction.html"
  
 ---
   

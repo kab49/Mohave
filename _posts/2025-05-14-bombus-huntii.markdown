@@ -30,7 +30,11 @@ my_posts_array:
   title: Hunt's Bumble Bee (Bombus huntii)
   excerpt: Mount Charleston (July 10)
   url: "/construction.html"
-- image: /images/mojave-insects/bombus-huntii.jpg
+- image: /images/mojave-insects/bombus-huntii-1.jpg
+  title: Hunt's Bumble Bee (Bombus huntii)
+  excerpt: Mount Charleston (July 10)
+  url: "/construction.html"
+- image: /images/mojave-insects/bombus-huntii-2.jpg
   title: Hunt's Bumble Bee (Bombus huntii)
   excerpt: Mount Charleston (July 10)
   url: "/construction.html"
