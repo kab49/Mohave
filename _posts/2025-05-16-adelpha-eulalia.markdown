@@ -48,6 +48,14 @@ my_posts_array:
   title: Arizona Sister (Adelpha eulalia)
   excerpt: Mount Charleston (Aug 15)
   url: "/construction.html"
+- image: /images/mojave-insects/adelpha-eulalia-3.jpg
+  title: Arizona Sister (Adelpha eulalia)
+  excerpt: Mount Charleston (Sept 9)
+  url: "/construction.html"
+- image: /images/mojave-insects/adelpha-eulalia-4.jpg
+  title: Arizona Sister (Adelpha eulalia)
+  excerpt: Mount Charleston (Sept 9)
+  url: "/construction.html"
  
 ---
   

@@ -52,7 +52,7 @@ my_posts_array:
 
   {% for item in insectlist %}
 
-  <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+  <div class="col-2"><span class="image fit"><a href="{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
   
   {% endfor %}
 
@@ -68,7 +68,7 @@ my_posts_array:
 
     {% for item in bees %}
 
-      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
     {% endfor %}
 
@@ -83,7 +83,7 @@ my_posts_array:
 
     {% for item in wasps %}
 
-      <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+      <div class="col-2"><span class="image fit"><a href="/{{ site.baseurl }}{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
     {% endfor %}
 
@@ -100,7 +100,8 @@ my_posts_array:
 
       {% for item in butterflies %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
@@ -115,7 +116,7 @@ my_posts_array:
 
       {% for item in moths %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
@@ -130,7 +131,7 @@ my_posts_array:
 
       {% for item in flies %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
@@ -145,7 +146,7 @@ my_posts_array:
 
       {% for item in dragonflies %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
@@ -160,7 +161,7 @@ my_posts_array:
 
       {% for item in damselflies %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
@@ -175,7 +176,7 @@ my_posts_array:
 
       {% for item in beetles %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
@@ -190,7 +191,7 @@ my_posts_array:
 
       {% for item in grasshoppers %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
@@ -205,7 +206,7 @@ my_posts_array:
 
       {% for item in spiders %}
 
-        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ item.image }}" alt="" title="{{ item.name }}"/></figure></a></span></div>
+        <div class="col-2"><span class="image fit"><a href="{{ site.baseurl }}/{{ item.url }}" class="image"><figure><img src="{{ site.baseurl }}/{{ item.image }}" alt="" title="{{ site.baseurl }}/{{ item.name }}"/></figure></a></span></div>
 
       {% endfor %}
 
