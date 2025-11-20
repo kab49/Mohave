@@ -40,11 +40,19 @@ elevation: up to 3500 feet (1000 m)
    
 
 my_posts_array:
+- image: /images/mojave-plants-perennials/cucurbita-palmata.jpg
+  title: Coyote Melon (Cucurbita palmata)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
 - image: /images/mojave-plants-perennials/cucurbita-palmata-1.jpg
   title: Coyote Melon (Cucurbita palmata)
   excerpt: Henderson Bird Viewing Preserve
   url: "/construction.html"
 - image: /images/mojave-plants-perennials/cucurbita-palmata-2.jpg
+  title: Coyote Melon (Cucurbita palmata)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
+- image: /images/mojave-plants-perennials/cucurbita-palmata-3.jpg
   title: Coyote Melon (Cucurbita palmata)
   excerpt: Henderson Bird Viewing Preserve
   url: "/construction.html"

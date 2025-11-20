@@ -2,7 +2,7 @@
 layout: post-plants
 title:  "Potentilla hippiana"
 scientific: "Potentilla hippiana"
-common: ""
+common: "Wooly Cinquefoil"
 author: Kurt Buzard
 intro: "Flowers are yellow, about 1/2” across, with 5 broad petals that are tapered at the base and rounded, straight across, or slightly depressed at the tip. In the center are about 20 yellow stamens. The calyx cupping the flowers has 5 triangular to lance-shaped, sharply pointed sepals that are somewhat shorter than the petals. Leaves are mostly basal, pinnately compound with 7 to 13 leaflets, on stalks 1 to 4 inches long. This is a very common Potentilla in the mountains of the Four Corners states."
 image: /images/mojave-plants-perennials/potentilla-hippiana.jpg

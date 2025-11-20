@@ -45,6 +45,18 @@ my_posts_array:
   title: Monarch Butterfly (Danaus plexippus)
   excerpt: Henderson Bird Viewing Preserve
   url: "/construction.html"
+- image: /images/mojave-insects/danaus-plexippus-2.jpg
+  title: Monarch Butterfly Larva or Caterpillar (Danaus plexippus)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
+- image: /images/mojave-insects/danaus-plexippus-3.jpg
+  title: Monarch Butterfly Pupa or Chrysalis (Danaus plexippus)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
+- image: /images/mojave-insects/danaus-plexippus-4.jpg
+  title: Monarch Butterfly Caterpillar and Broken Chrysalis (Danaus plexippus)
+  excerpt: Henderson Bird Viewing Preserve
+  url: "/construction.html"
  
 ---
   

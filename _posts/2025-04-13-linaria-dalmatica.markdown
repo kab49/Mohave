@@ -40,6 +40,20 @@ elevation: up 9400 feet (2865 m)
    
 
 my_posts_array:
+- image: /images/mojave-plants-weeds/linaria-dalmatica.jpg
+  title: Balkin Toadflax (Linaria dalmatica)
+  excerpt: Utah
+  url: "/construction.html"
+- image: /images/mojave-plants-weeds/linaria-dalmatica-1.jpg
+  title: Balkin Toadflax (Linaria dalmatica)
+  excerpt: Littleton, Colorado (9/30)
+  url: "/construction.html"
+- image: /images/mojave-plants-weeds/linaria-dalmatica-2.jpg
+  title: Balkin Toadflax (Linaria dalmatica)
+  excerpt: Littleton, Colorado (9/30)
+  url: "/construction.html"
+ 
+
 
 ---
   

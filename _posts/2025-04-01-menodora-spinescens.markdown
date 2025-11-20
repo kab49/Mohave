@@ -6,7 +6,7 @@ common: "Spiny Mendora"
 author: Kurt Buzard
 intro: "It is a shrub producing upright stems up to 90 centimeters tall, branching densely to form a thicket, the smallest branches tipped with spines. It is leafless most of the year. It is coated sparsely in short hairs. The fleshy green leaves are oblong or oval in shape, up to a centimeter long, and mostly borne in clusters. The inflorescence is a cluster of tube-throated flowers growing in axils, in splits between leaf clusters. The flowers are pink in bud and mostly white in bloom. The fruit is a capsule."
 image: /images/mojave-plants-shrubs/menodora-spinescens.jpg
-permalink: /mojave-plants-shrubs/menodora-spinescens.html
+permalink: /mojave-plants-shrubs/mendora-spinescens.html
 
 common-names: Spiny Mendora, Ground Thorn, Spiny Desert Olive, Spiny Menodora, Spiny Twinberry
 synonyms: Menodora spinescens var. mohavensis

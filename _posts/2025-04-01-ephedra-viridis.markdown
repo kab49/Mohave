@@ -39,15 +39,18 @@ elevation: 3000-7500 feet
    
 
 my_posts_array:
-- image: /images/mojave-plants-shrubs/ephedra-viridis-1.jpg
+- image: /images/mojave-plants-shrubs/ephedra-viridis.jpg
   title: Green Mormon Tea (Ephedra viridis)
-  excerpt: Ely, NV
+  excerpt: Ely, NV (6/3)
+  url: "/construction.html"
+- image: /images/mojave-plants-shrubs/ephedra-viridis-1.jpg
+  title: Green Mormon Tea Flowers (Ephedra viridis)
+  excerpt: Ely, NV (6/3)
   url: "/construction.html"
 - image: /images/mojave-plants-shrubs/ephedra-viridis-2.jpg
   title: Green Mormon Tea (Ephedra viridis)
-  excerpt: Ely, NV
+  excerpt: Ely, NV (6/3)
   url: "/construction.html"
- 
 ---
   
   

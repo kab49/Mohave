@@ -51,6 +51,10 @@ my_posts_array:
   title: Saltgrass (Distichlis spicata)
   excerpt: Ash Meadows
   url: "/construction.html"
+- image: /images/mojave-plants-grasses/distichlis-spicata-4.jpg
+  title: Saltgrass (Distichlis spicata)
+  excerpt: Ash Meadows
+  url: "/construction.html"
  
  
 ---

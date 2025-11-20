@@ -39,13 +39,21 @@ elevation: 2100-5700 ft (700 - 1900 m)
    
 
 my_posts_array:
+- image: /images/mojave-plants-shrubs/ephedra-nevadensis.jpg
+  title: Nevada Ephedra (Ephedra nevadensis)
+  excerpt: Oak Creek, NV (4/12)
+  url: "/construction.html"
 - image: /images/mojave-plants-shrubs/ephedra-nevadensis-1.jpg
   title: Nevada Ephedra (Ephedra nevadensis)
-  excerpt: Oak Creek, NV
+  excerpt: Oak Creek, NV (4/12)
   url: "/construction.html"
 - image: /images/mojave-plants-shrubs/ephedra-nevadensis-2.jpg
-  title: Nevada Ephedra (Ephedra nevadensis)
-  excerpt: Oak Creek, NV
+  title: Nevada Ephedra Flowers (Ephedra nevadensis)
+  excerpt: Oak Creek, NV (4/12)
+  url: "/construction.html"
+- image: /images/mojave-plants-shrubs/ephedra-nevadensis-3.jpg
+  title: Nevada Ephedra Flowers (Ephedra nevadensis)
+  excerpt: Oak Creek, NV (4/12)
   url: "/construction.html"
  
 ---

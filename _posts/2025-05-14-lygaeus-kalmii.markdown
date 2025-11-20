@@ -27,7 +27,14 @@ my_posts_array:
   title: Small Milkweed Bug (Ipomopsis tenuituba)
   excerpt: Cave Lake, NV
   url: "/construction.html"
-  
+- image: /images/mojave-insects/lygaeus-kalmii-1.jpg
+  title: Small Milkweed Bug (Ipomopsis tenuituba)
+  excerpt: On Engelmann's Milkweed (Asclepias engelmanniana) in Lakewood, Colorado
+  url: "/construction.html"
+- image: /images/mojave-insects/lygaeus-kalmii-2.jpg
+  title: Small Milkweed Bug (Ipomopsis tenuituba)
+  excerpt: On Engelmann's Milkweed (Asclepias engelmanniana) in Lakewood, Colorado
+  url: "/construction.html"
  
 ---
   
