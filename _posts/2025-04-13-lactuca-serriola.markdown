@@ -34,7 +34,7 @@ soil:
 habitat: Waste lands, roadsides, urban areas, sidewalks, alleys and disturbed areas
 distribution: cosmopolitan
 seen: Henderson
-elevation: 1000-7000' (305-2,134 m m)
+elevation: 1000-7000 ft (305-2134 m)
  
    
 

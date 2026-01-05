@@ -39,7 +39,7 @@ author: Kurt Buzard
         <tbody>
           {% assign plantlist = site.data.plants11 | sort: "name" %}
             {% for item in plantlist %}
-            {% if item.type=="Perennial" %}
+            {% if item.type contains "Perennial" %}
             <tr>
                 <td><a href="{{ item.url }}">{{ item.name }}</a></td>
                 <td>{{ item.scientific }}</td>

@@ -1,0 +1,52 @@
+---
+layout: page
+
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+      <header>
+        <h1><br> Mojave Parasitic Plants<br />
+       </h1>
+       <p>Parasitic or Hemiparasitic Plants</p>
+      </header>
+      <p>Desert parasitic plants are unique organisms that steal water and nutrients from host plants, with common examples including Desert Mistletoe (growing on trees like mesquite), Dodder (Cuscuta, yellow vines on shrubs), Desert Broomrape (Orobanche cooperi, root parasite on brittlebush), and Thurber's Stemsucker (Pilostyles, tiny flowers from pea shrubs), all adapted to arid environments by relying on hosts for survival, often lacking chlorophyll themselves.
+</p>
+    </div>
+    <span class="image object">
+      <img src="/images/mojave-plants-parasitic.jpg" alt="" />
+    </span>
+  </section>
+
+<!-- Table -->
+
+
+<h3>Mojave Invasive Plants</h3>
+
+<div class="table-wrapper">
+    <table>
+    
+        <thead>
+            <tr>
+                <th><a href="mojave-plants-parasites-n.html">Common Name</a></th>
+                <th><a href="mojave-plants-parasites.html">Sort by Scientific Name</a></th>
+                <th>Family</th>
+            </tr>                                                                                                                         
+        </thead>
+        <tbody>
+          {% assign plantlist = site.data.plants11 | sort: "name" %}
+            {% for item in plantlist %}
+            {% if item.type contains "Parasite" %}
+            <tr>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.scientific }}</td>
+                <td>{{ item.family }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        
+        </tbody>
+       
+    </table>
+</div>

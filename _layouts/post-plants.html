@@ -20,10 +20,16 @@ layout: page
 </section>
 
 
+
+<details>
+  <summary><a class="button primary fit">Learn More Details About This Plant</a></summary>
+
 {{ content }}
+
 
 <!-- Section -->
 <section>
+
   <header class="major">
       <h2>Plant Data</h2>
   </header>
@@ -119,10 +125,13 @@ layout: page
     </article>
 </section>
 
+</details>
+
 <!-- Section -->
 <section>
     <header class="major">
-        <h2>Photographs</h2>
+      <br>
+        <h2>Gallery</h2>
     </header>
     {% include components/posts-plants.html posts=page.my_posts_array %}
 </section>

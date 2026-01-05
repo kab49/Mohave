@@ -36,7 +36,7 @@ layout: page
         <tbody>
           {% assign plantlist = site.data.plants11 | sort: "scientific" %}
             {% for item in plantlist %}
-            {% if item.type=="Annual" %}
+            {% if item.type contains "Annual" %}
             <tr>
                 <td><a href="{{ item.url }}">{{ item.scientific }}</a></td>
                 <td>{{ item.name }}</td>
