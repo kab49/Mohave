@@ -51,11 +51,11 @@ my_posts_array:
   url: "/construction.html"
 - image: /images/mojave-plants-grasses/sporobolus-airoides-2.jpg
   title: Alkali Sacaton (Sporobolus airoides)
-  excerpt: Ash Meadows
+  excerpt: Ash Meadows (7/15)
   url: "/construction.html"
 - image: /images/mojave-plants-grasses/sporobolus-airoides-3.jpg
   title: Alkali Sacaton (Sporobolus airoides)
-  excerpt: Ash Meadows
+  excerpt: Ash Meadows 
   url: "/construction.html"
 
 

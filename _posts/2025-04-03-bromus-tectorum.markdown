@@ -67,4 +67,3 @@ my_posts_array:
   
   
  <p></p>
-  

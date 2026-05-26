@@ -43,11 +43,11 @@ elevation:
 my_posts_array:
 - image: /images/mojave-plants-grasses/andropogon-glomeratus.jpg
   title: Bushy Bluestem (Andropogon glomeratus)
-  excerpt: Ash Meadows
+  excerpt: Ash Meadows (7/6)
   url: "/construction.html"
 - image: /images/mojave-plants-grasses/andropogon-glomeratus-1.jpg
   title: Bushy Bluestem (Andropogon glomeratus)
-  excerpt: Ash Meadows
+  excerpt: Ash Meadows (7/6)
   url: "/construction.html"
  
 ---

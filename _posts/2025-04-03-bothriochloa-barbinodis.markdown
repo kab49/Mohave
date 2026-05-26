@@ -31,7 +31,7 @@ fruit:
 water-use: medium
 light: Full Sun
 soil: dry
-Ethnobotanical: 
+Ethnobotanical: treating bladder complaints, relieving pain, and stopping bleeding
 habitat: Prairie, Plains, Meadows, Pastures, Savannas
 distribution: AZ, CA, CO, FL, HI, NM, NV, OK, SC, TX, UT, Mexico, Central and South America
 seen: Calico Basin, LV

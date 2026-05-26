@@ -54,6 +54,6 @@ my_posts_array:
   
  <p>References:</p>
  
- [Wooly Cinquefoil, Potentilla hippiana), USDA] (https://www.fs.usda.gov/database/feis/plants/forb/pothip/all.html)
+ [Wooly Cinquefoil, (Potentilla hippiana), USDA] (https://www.fs.usda.gov/database/feis/plants/forb/pothip/all.html)
  
   
